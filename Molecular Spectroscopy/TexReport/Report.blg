@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (MiKTeX 2.9.7350 64-bit)
+Capacity: max_strings=4000, hash_size=5000, hash_prime=4253
+The top-level auxiliary file: Report.aux
+The style file: apsrev.bst
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: ReportNotes.bib
+Database file #2: Report.bib
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--empty author and editor in FundamentalsOfPhotonics
+Warning--can't use both author and editor fields in bookWithCO2inBreath
+You've used 32 entries,
+            3411 wiz_defined-function locations,
+            1343 strings with 15628 characters,
+and the built_in function-call counts, 14979 in all, are:
+= -- 899
+> -- 321
+< -- 57
++ -- 230
+- -- 84
+* -- 1830
+:= -- 1857
+add.period$ -- 32
+call.type$ -- 32
+change.case$ -- 140
+chr.to.int$ -- 30
+cite$ -- 40
+duplicate$ -- 1447
+empty$ -- 1436
+format.name$ -- 219
+if$ -- 2817
+int.to.chr$ -- 3
+int.to.str$ -- 33
+missing$ -- 223
+newline$ -- 111
+num.names$ -- 87
+pop$ -- 420
+preamble$ -- 1
+purify$ -- 128
+quote$ -- 0
+skip$ -- 560
+stack$ -- 0
+substring$ -- 408
+swap$ -- 937
+text.length$ -- 31
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 172
+warning$ -- 2
+while$ -- 63
+width$ -- 0
+write$ -- 329
+(There were 2 warnings)

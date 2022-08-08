@@ -1,0 +1,916 @@
+%% LyX 2.3.0 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[twocolumn,american]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,lmargin=1.5cm,rmargin=1.5cm}
+\usepackage{array}
+\usepackage{units}
+\usepackage{multirow}
+\usepackage{amstext}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+%% A simple dot to overcome graphicx limitations
+\newcommand{\lyxdot}{.}
+
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\title{2D Electron Transport}
+
+\author{Alon Shaaltiel, Oren Kereth \& Gal Tuvia}
+\maketitle
+\begin{abstract}
+By subjecting a hetero-junction of GaAs/AlGaAs to an external magnetic
+field of varying strengths, at low temperature and under different
+voltage gates, the quantum and classical Hall effects were observed.
+Using the measurements, characteristics of the 2D electron gas (2DEG)
+were studied and compared to values from the literature. The sample
+was submerged in liquid helium under one atmosphere of pressure and
+under a vacuum to achieve low temperatures of 4.2K and 1.7K, respectively.\global\long\def\tt#1{\times10^{#1}}
+\end{abstract}
+
+\part{Background}
+
+In this experiment the Quantum Hall Effect (QHE) will be measured
+for a 2D electron gas formed at the hetero-junction of AlGaAs and
+GaAs.
+
+\section{Classical Hall Effect}
+
+At room temperature, when a small magnetic field ($B<1T)$ is applied
+perpendicularly to a current running from one side of a metal plate
+to the other, the classical Hall Effect can be observed and there
+is a measurable potential difference between the two remaining sides
+of the metal plate. This potential difference is normalized by the
+current, yielding the Hall resistance \cite{StevenSimon}
+\begin{equation}
+R_{xy}=\text{\ensuremath{\frac{V_{H}}{I}}}\label{eq: Hall Resistance definition}
+\end{equation}
+where $R_{xy}$ is the xy component of the resistance tensor (and
+also Hall resistance in this case)\cite{BADBOOKTHATISSOMEWHATUSEFULCLAUDE},
+$V_{H}$ is the aforementioned potential difference and $I$ is the
+current running through the metal plate. Using Drude's model one can
+formulate the relation between $\rho_{xy}$, the resistivity, and
+the applied magnetic field $B$ to be\cite{StevenSimon}
+\begin{equation}
+\rho_{xy}=\frac{1}{ne}B\label{eq: Classical Hall Effect main equation}
+\end{equation}
+where $n$ is the charge carrier density in the metal and $e$ is
+charge of the electron. A similar expression can be written for the
+resistance $R_{xy}$ due to the connection between the two. Note that
+this is valid only for small enough magnetic fields, depending on
+the temperature.
+
+\section{Quantum Hall Effect}
+
+QHE can be observed at low temperatures and for strong enough magnetic
+fields ($B>1T$) for the 2D electron gas. As the name suggests, this
+phenomena is explained using quantum mechanics. The 2D electron gas
+is formed on the layer between two different semiconductors whose
+Fermi level is different. Due to the difference in Fermi levels, near
+the hetero-junction the band structure of both semiconductors is altered,
+effectively creating a finite potential well for the electrons occupying
+the boundary layer. As a result, these electrons are confined in their
+movement and are practically two dimensional\cite{BADBOOKTHATISSOMEWHATUSEFULCLAUDE}.
+Having a 2D electron gas is essential for the measurement of QHE as
+it allows the creation of discrete energy states with large degeneracy
+using a magnetic field known as Landau Levels\cite{BADBOOKTHATISSOMEWHATUSEFULCLAUDE}.
+Measurement of $\rho_{xy},\rho_{xx}$ vs $B$ yields the following
+graphs:
+\begin{figure}
+\includegraphics[scale=0.5]{\string"QHE GRAPHS - FROM THE BOOKS\string".jpg}
+
+\caption{QHE - $\rho$, the resistivity in different directions vs $B$, the
+applied magnetic field\cite{anactualusefulbookbySPRINGER} \label{fig:QHE- graphs from the book}}
+\end{figure}
+Note that for small magnetic fields $\rho_{xy}$ changes linearly
+with $B$, fitting the classical Hall Effect, which is valid for small
+magnetic fields as mentioned. However, for larger magnetic fields
+plateaus of constant resistance at very specific values can be seen.
+Moreover, corresponding to these plateaus on the $\rho_{xx}$ graph
+there are also plateaus of 0 resistance (which are in fact infinite
+resistance such that no current can flow). These graphs are analyzed
+more thoroughly later on. Using the measurement of QHE, valuable information
+regarding the electron gas can be extracted, as is done in the following
+sections in this report.
+
+\part{Experimental Setup}
+
+As was previously mentioned, in this experiment we study the 2D electron
+gas in the hetero-junction between AlGaAs and GaAs. In order to do
+so, a sample of the aforementioned hetero-junction is lowered into
+liquid helium with various probes, a temperature sensor and a capacitor.
+The Dewar which holds the liquid helium also cooled a superconducting
+coil which acts as a high-power magnet when current is passed through
+it. The probes are drawn in Figure \ref{fig:Reperesentation of Sample},
+probes 5 and 15 allow a current to be passed through the sample, probe
+5 is connected to the source of a lock-in amplifier and probe 15 is
+grounded. The same source is also connected in series to a $1\,\text{M}\Omega$
+resistor, which is then grounded. As both probe 15 and the connection
+to the resistor are grounded they are connected through the ``ground''
+(a large metal board in our case). The resistance on the source is
+$1\,\text{M}\Omega+R_{2DEG}(T)=R_{tot}$, as $R_{2DEG}(T)\approx1\,\text{k}\Omega$,
+we can assume the resistance, and thus current, are not dependent
+on the sample's temperature. This is done to reduce fluctuations in
+later resistance measurements.
+
+Probes 6 and 11 were used to measure the voltage across the 2D electron
+gas with a lock-in amplifier, the lock-in amplifier then measures
+the resistance across using the current that is fed from the source,
+which is connected to probes 5 and 15. In a similar fashion, probes
+6 and 3 were used to measure the resistance in perpendicular to the
+current's direction.
+
+Probe 1 is used to induce a voltage on the gold plate above the 2D
+electron gas, the plate is grounded and like the resistor is thus
+connected to probe 15. This allows it to carry a voltage potential
+relative to the electron gas and create an electric field, which changes
+the available states in the gas, thus changing the carrier density.
+
+Both lock-in resistance readings, the temperature near the sample
+and the magnetic field in the superconducting coil were fed into and
+operated by a LabView application at the lab. The application could
+command the parts to change one aspect (i.e. the gate voltage, or
+current in the coil) at a given rate and measure all quantities during
+the process. The working range was $-0.5$ Volt to $0.5$ Volt for
+the gate voltage and $0$ to $5.5$ Tesla for the superconducting
+coil. Do note that the temperature sensor's readings change under
+a magnetic field.
+\begin{figure}
+\includegraphics[scale=0.1]{\string"Images/Sample Graph\string".png}
+
+\caption{A representation of the hetero-junction sample, its probes and the
+capacitor. The 2D electron gas is colored in dark gray, and the probes
+and gold plate which serves as a capacitor, in orange. The capacitor
+is positioned above the 2D electron gas. \label{fig:Reperesentation of Sample}}
+\end{figure}
+ In the first set of measurements, the resistance $R_{xx}$ was measured
+versus the temperature $T$, changing from room temperature to $4.2K$
+due to the boiling helium inside the Dewar. After the 2DEG stabilized
+on $4.2K$ several measurements were made. One set of measurements
+was done by setting the voltage gate to a constant value and then
+measuring the resistances $R_{xx},R_{xy}$ while changing the magnetic
+field from $0T$ to $5.5T$. The voltage gate value was either $0,-0.5$
+or $0.5$ volts. Another set of measurements was made by setting the
+magnetic field to a constant value of either $0.5T$ or $5T$ and
+measuring the resistance while changing the voltage gate from $-0.5V$
+to $0.5V$. After performing these measurements the temperature of
+the sample was further lowered by creating a vacuum using a pump (see
+Figure \ref{fig:Experimental-Setup DEWAR AND PUMP})
+\begin{figure}
+\includegraphics[scale=0.1]{\string"Images/Experimental Setup\string".jpg}\caption{Experimental Setup - in the middle: the Dewar which holds the helium.
+Right above it the sample was inserted on a rod through the metal
+pipe. To the right of the helium Dewar is the pump with which the
+vacuum was created. \label{fig:Experimental-Setup DEWAR AND PUMP}}
+
+\end{figure}
+ After lowering the temperature to the vicinity of $1.7K$ (as there
+were some fluctuations) the same measurements detailed above were
+done again.
+
+\part{Measurements}
+
+\section*{Sheet Resistance vs Temperature}
+
+As mentioned above, at the beginning of the experiment the sample
+was cooled from 300K to 4.2K with $B=0$. During this cooling process,
+its resistance $R_{xx}$ was measured and plotted versus the temperature.
+Because the measured resistance is the total resistance of two resistors
+connected in parallel - the first being the 2D electron gas and the
+second being AlGaAs, effects regarding the resistance as a function
+of temperature for both resistors must be taken into account. For
+the 2D electron gas the resistance can be expressed as 
+\begin{equation}
+R_{2DEG}(T)=a_{0}+a_{1}T^{3}+a_{2}T^{5}\label{eq: Resistance as a function of Temp phonons}
+\end{equation}
+where $a_{0},a_{1},a_{2}$ are coefficients, $T$ is the temperature
+and $R_{2DEG}$ is the resistance of the 2D electron gas. Note that
+for $T\rightarrow0$ the resistance is not 0 due to impurities in
+the material and that for higher temperatures the contributions of
+$T^{3},T^{5}$ are due to phonons and thermal excitation occurring
+in the electron gas\cite{StevenSimon}, leading to a higher resistance.
+The behavior of the resistance as a function of the temperature for
+the semiconductor is different than that of the 2DEG as thermal exications
+in the semiconductor actually reduce the resistance by allowing the
+electrons to move from the valence shell to the conductance shell,
+thus contributing to the conduction of the material. Therefore the
+resistance is
+\begin{equation}
+R_{SC}(T)=b_{0}+b_{1}e^{\frac{2E_{g}}{k_{B}T}}\label{eq: Resistance as a function of Temp SC}
+\end{equation}
+where $b_{0},b_{1},E_{g}$ are coefficients and $R_{SC}$ is the resistance
+of the semiconductor. $2E_{g}$ is the energy gap between the valence
+shell and the conductance shell  and it can be seen that for higher
+temperatures the resistance becomes lower as opposed to the electron
+gas whose resistance becomes higher. Because the two resistors are
+parallel to each other the total resistance which is the one measured
+is\cite{electricitystuffusedfromresistancesinparallel}
+\begin{equation}
+\frac{1}{R}=\frac{1}{R_{2DEG}}+\frac{1}{R_{SC}}\label{eq: PARALLEL RESISTORS, SC AND PHONON}
+\end{equation}
+Notice that for low temperatures $R_{SC}\rightarrow\infty$ and so
+the semiconductor does not contribute to the total resistance and
+for high temperatures the opposite occurs. Therefore, by fitting the
+resistance in low temperatures to \ref{eq: Resistance as a function of Temp phonons}
+and the resistance in high temperatures to \ref{eq: Resistance as a function of Temp SC}
+all the coefficients $a_{0},a_{1},a_{2},b_{0},b_{1},E_{g}$ can be
+extracted. . By measuring the resistance for each temperature and
+by fitting the two temperature regions to the corresponding functions
+the following graphs and parameters have been extracted:
+\begin{figure}
+\includegraphics[scale=0.5]{\string"Measurements/xlsx/1st Part/Changing Temperature Graphs/RVSTFullRange\string".jpg}\caption{Resistance VS Temperature - The entire range\label{fig:Resistance-VS-Temperature the entire range}}
+\end{figure}
+It can be seen that for low temperatures the resistance acts like
+some polynomial and that for high temperatures it acts like an exponential
+function, matching the theory above. By fitting each region the following
+was extracted: 
+\begin{figure}
+\includegraphics[scale=0.5]{\string"Measurements/xlsx/1st Part/Changing Temperature Graphs/rvstsc_fitting\string".png}
+
+\caption{Resistivity VS Temperature - High Temperature region\label{fig:Resistivity-VS-Temperature HIGH TEMP REGION}}
+\end{figure}
+ where $w$ and $L$ are the width and length of the sample correspondingly.
+The corresponding parameters and statistical values.
+\begin{table}
+\begin{tabular}{|c|c|c|c|}
+\hline 
+Parameter & Value & Error & Relative Error\tabularnewline
+\hline 
+\hline 
+$b_{0}[\Omega]$ & $72.010$ & $0.081$ & $0.11\%$\tabularnewline
+\hline 
+$b_{1}[\Omega]$ & $1.26\tt{-6}$ & $8.1\tt{-7}$ & $64\%$\tabularnewline
+\hline 
+$\unitfrac{E_{g}}{k_{B}}[K]$ & $1707$ & $67$ & $3.9\%$\tabularnewline
+\hline 
+$\chi_{red}^{2}$ & $1.3$ & \multicolumn{2}{c|}{------------}\tabularnewline
+\hline 
+$P_{value}$ & $0.0010$ & \multicolumn{2}{c|}{------------}\tabularnewline
+\hline 
+\end{tabular}
+
+\caption{Resistivity VS Temperature Fit Parameters of the high temperature
+region\label{tab:Resistance-VS-Temperature HIGH TEMP REGION}}
+\end{table}
+ For the low temperature region:
+\begin{figure}
+\includegraphics[scale=0.5]{\string"Measurements/xlsx/1st Part/Changing Temperature Graphs/rvstphonon_fitting\string".png}\caption{Resistivity VS Temperature - Low Temperature region\label{fig:Resistivity-VS-Temperature LOW TEMP REGION}}
+\end{figure}
+ with the corresponding parameters and statistical values
+\begin{table}
+\begin{tabular}{|c|c|c|c|}
+\hline 
+{\footnotesize{}Parameter} & {\footnotesize{}Value} & {\footnotesize{}Error} & {\footnotesize{}Relative Error}\tabularnewline
+\hline 
+\hline 
+{\footnotesize{}$a_{0}[\Omega]$} & {\footnotesize{}$46.90$} & {\footnotesize{}$0.13$} & {\footnotesize{}$0.28\%$}\tabularnewline
+\hline 
+{\footnotesize{}$a_{1}[\unitfrac{\Omega}{K^{3}}]$} & {\footnotesize{}$1.0010\tt{-4}$} & {\footnotesize{}$9.2\tt{-7}$} & {\footnotesize{}$0.92\%$}\tabularnewline
+\hline 
+{\footnotesize{}$a_{2}[\unitfrac{\Omega}{K^{5}}]$} & {\footnotesize{}$3.134\tt{-9}$} & {\footnotesize{}$9.2\tt{-11}$} & {\footnotesize{}$2.9\%$}\tabularnewline
+\hline 
+{\footnotesize{}$\chi_{red}^{2}$} & {\footnotesize{}$0.28$} & \multicolumn{2}{c|}{{\footnotesize{}------------}}\tabularnewline
+\hline 
+{\footnotesize{}$P_{value}$} & {\footnotesize{}$1.0$} & \multicolumn{2}{c|}{{\footnotesize{}------------}}\tabularnewline
+\hline 
+\end{tabular}
+
+\caption{Resistance VS Temperature Fit Parameters of the low temperature region\label{tab:Resistance-VS-Temperature LOW TEMP REGION}}
+\end{table}
+ For the high temperature region fit, the statistical values suggest
+an under-estimation of error as the theory describes the behavior
+of the resistance in that region properly, with the resistance changing
+exponentially with $\frac{1}{T}$. The low temperature fit is adequate,
+as can also be seen from the statistical values and from the fit itself.
+Overall, both fits are good and the theory describes the physical
+phenomena well. Using the fit parameters from both fits and equations
+\ref{eq: Resistance as a function of Temp phonons},\ref{eq: Resistance as a function of Temp SC}
+and \ref{eq: PARALLEL RESISTORS, SC AND PHONON} a graph consisting
+of both the original measurements and the final fit for the entire
+region was plotted (see Figure \ref{fig:1/R vs T for the entire region using all the measurements})
+\begin{figure}
+\includegraphics[scale=0.2]{\string"Measurements/xlsx/1st Part/TotalResistance_vs_Temp\string".png}\caption{$\frac{1}{R_{xx}}$ VS $T$ for the entire region of measurements.
+In orange- equation \ref{eq: PARALLEL RESISTORS, SC AND PHONON} with
+the fit parameters of both fits substituted in \ref{eq: Resistance as a function of Temp phonons}
+and \ref{eq: Resistance as a function of Temp SC}. In blue- the measurements.
+\label{fig:1/R vs T for the entire region using all the measurements}}
+\end{figure}
+ It can be seen that the final fitting function using the fit parameters
+from the previous fits describes the physical phenomena adequately.
+Further analysis can be found in the Discussion.
+
+\section*{Low Field Regime}
+
+As explained in the experimental setup, in this part of the experiment
+the resistance of the 2DEG was measured for different gate voltages
+and different constant temperatures. In low magnetic fields $R_{xy},R_{xx}$
+exhibits a behavior described by the classical Hall Effect and the
+Drude model \cite{StevenSimon}. By fitting a linear function 
+\begin{equation}
+R_{xy}=a_{0}+a_{1}B\label{eq: Classical Hall Effect linear fit to RXY}
+\end{equation}
+where according to \ref{eq: Classical Hall Effect main equation}
+$a_{0}$ should be consistent with 0 and $a_{1}=\frac{1}{ne}$. Using
+the linear fit, the charge carrier density of the 2DEG can be extracted
+from $a_{1}$ by 
+\begin{equation}
+n=\frac{1}{a_{1}e}\label{eq: charge carrier density from classical hall effect}
+\end{equation}
+By measuring $R_{xx}$, which according to Drude model, is constant,
+one can extract the mean free time between electrons, $\tau_{t}$,
+through the relation between the two:
+\begin{equation}
+R_{xx}=\frac{m^{*}}{ne^{2}\tau_{t}}\label{eq: resistivity in drude model}
+\end{equation}
+where $m^{*}$ is the effective mass\cite{StevenSimon} of the 2DEG.
+Several fits were made; 3 fits for each temperature (1.7K and 4.2K),
+each fit with a different gate voltage $V_{G}$. By changing the gate
+voltage the charge carrier density of the 2DEG changes, thus yielding
+different linear graphs with varying slopes. Using the mean free time,
+$\tau_{t}$, the mobility, $\mu$ ,of the 2DEG can be extracted \cite{StevenSimon}
+\begin{equation}
+\mu=\frac{e\tau_{t}}{m^{*}}\label{eq: mobility DRUDE MODEL}
+\end{equation}
+By fitting linear function to the 3 different gate voltages for $T=4.2K$
+the following was extracted (see Figure \ref{fig:Classical-Hall-Effect R_xy vs B at T=00003D4.2K},
+only $V_{g}=-0.5$ is shown, the rest are similar.) 
+\begin{figure}
+\includegraphics[scale=0.5]{\string"Measurements/xlsx/2nd Part/Classical Hall Effect/4.2K/linear_fittingminus05\string".png}\caption{Classical Hall Effect - $R_{xy}$ VS $B$ at $T=4.2K$ for $V_{g}=-0.5\,V$\label{fig:Classical-Hall-Effect R_xy vs B at T=00003D4.2K}}
+
+\end{figure}
+ with the corresponding $n$,$\tau_{t}$,$\mu$ and fit parameters
+(see Tables \ref{tab:Fit-Parameters CLASSICAL HALL EFFECT T=00003D4.2K}
+and \ref{tab:ExtractValues CLASSICAL HALL EFFECT T=00003D4.2K})
+\begin{table}
+\begin{tabular}{|c|c|c|c|}
+\hline 
+$V_{G}[V]$ & $n[10^{15}\unitfrac{1}{m^{2}}]$ & $\chi_{red}^{2}$ & $P_{value}$\tabularnewline
+\hline 
+\hline 
+$0.5$ & $6.917\pm8.9\times10^{-2}(1.3\%)$ & $30$ & $0.0$\tabularnewline
+\hline 
+$0$ & $4.677\pm1.5\times10^{-2}(0.32\%)$ & $1.5$ & $0.0010$\tabularnewline
+\hline 
+$-0.5$ & $2.8803\pm5.0\times10^{-3}(0.17\%)$ & $0.52$ & $1.0$\tabularnewline
+\hline 
+\end{tabular}
+
+\caption{Fit parameter extracted from the linear fits for $R_{xy}$ VS $B$
+at $T=4.2K$\label{tab:Fit-Parameters CLASSICAL HALL EFFECT T=00003D4.2K}}
+
+\end{table}
+\begin{table}
+\begin{tabular}{|c|c|c|}
+\hline 
+$V_{G}[V]$ & $\mu[\unitfrac{C*sec}{kg}]$ & $\tau_{t}[10^{-12}sec]$\tabularnewline
+\hline 
+\hline 
+$0.5$ & $23.54\pm0.39(1.7\%)$ & $8.97\pm1.5\times10^{-1}(1.7\%)$\tabularnewline
+\hline 
+$0$ & $17.51\pm0.18(1.0\%)$ & $6.674\pm7.0\times10^{-2}(1.0\%)$\tabularnewline
+\hline 
+$-0.5$ & $8.961\pm0.092(1.0\%)$ & $3.413\pm3.5\times10^{-2}(1.0\%)$\tabularnewline
+\hline 
+\end{tabular}
+
+\caption{Extracted values from the linear fits for $R_{xy}$ VS $B$ at $T=4.2K$\label{tab:ExtractValues CLASSICAL HALL EFFECT T=00003D4.2K}}
+\end{table}
+By fitting linear function to the 3 different gate voltages for $T=1.7K$
+the following was extracted (see Figure \ref{fig:Classical-Hall-Effect R_xy vs B at T=00003D1.7K},
+only $V_{g}=0.5V$ is shown while the rest are similar.)
+\begin{figure}
+\includegraphics[scale=0.5]{\string"Measurements/xlsx/2nd Part/Classical Hall Effect/1.7K/VG=0.5/linear_fitting\string".png}
+
+\caption{Classical Hall Effect - $R_{xy}$ VS $B$ at $T=1.7K$ for $V_{G}=0.5V$\label{fig:Classical-Hall-Effect R_xy vs B at T=00003D1.7K}}
+\end{figure}
+ with the corresponding $n$,$\tau_{t}$,$\mu$ and fit parameters
+(see Tables \ref{tab:Fit-Parameters CLASSICAL HALL EFFECT T=00003D1.7K}
+and)
+\begin{table}
+\begin{tabular}{|c|c|c|c|}
+\hline 
+{\footnotesize{}$V_{G}[V]$} & {\footnotesize{}$n[10^{15}\unitfrac{1}{m^{2}}]$} & {\footnotesize{}$\chi_{red}^{2}$} & {\footnotesize{}$P_{value}$}\tabularnewline
+\hline 
+\hline 
+{\footnotesize{}$0.5$} & {\footnotesize{}$6.693\pm4.0\times10^{-2}(0.60\%)$} & {\footnotesize{}$6.8$} & {\footnotesize{}$0.0$}\tabularnewline
+\hline 
+{\footnotesize{}$0$} & {\footnotesize{}$4.731\pm1.6\times10^{-2}(0.34\%)$} & {\footnotesize{}$2.0$} & {\footnotesize{}$0.0$}\tabularnewline
+\hline 
+{\footnotesize{}$-0.5$} & {\footnotesize{}$2.8173\pm4.9\times10^{-3}(0.17\%)$} & {\footnotesize{}$0.59$} & {\footnotesize{}$1.0$}\tabularnewline
+\hline 
+\end{tabular}
+
+\caption{Fit Parameters from the linear fits for $R_{xy}$ VS $B$ at $T=1.7K$\label{tab:Fit-Parameters CLASSICAL HALL EFFECT T=00003D1.7K}}
+\end{table}
+ 
+\begin{table}
+\begin{tabular}{|c|c|c|}
+\hline 
+{\footnotesize{}$V_{G}[V]$} & {\footnotesize{}$\tau_{t}[10^{-12}sec]$} & {\footnotesize{}$\mu[\unitfrac{C\cdot sec}{kg}]$}\tabularnewline
+\hline 
+\hline 
+{\footnotesize{}$0.5$} & {\footnotesize{}$10.142\pm1.2\times10^{-2}(0.12\%)$} & {\footnotesize{}$26.623\pm0.032(0.12\%)$}\tabularnewline
+\hline 
+{\footnotesize{}$0$} & {\footnotesize{}$6.961\pm7.3\times10^{-2}(1.0\%)$} & {\footnotesize{}$18.27\pm0.19(1.0\%)$}\tabularnewline
+\hline 
+{\footnotesize{}$-0.5$} & {\footnotesize{}$3.338\pm3.4\times10^{-2}(1.0\%)$} & {\footnotesize{}$8.76\pm0.10(1.1\%)$}\tabularnewline
+\hline 
+\end{tabular}
+
+\caption{Extracted values from the linear fits for $R_{xy}$ VS $B$ at $T=1.7K$}
+\end{table}
+Overall, for all the measurements at both temperatures and for all
+the different values of the voltage gate it can be seen that the fits
+are adequate and a linear fit indeed describes the phenomena (despite
+the somewhat inadequate statistical values for some of them). In addition,
+all values extracted from the fit parameters seem to be in line with
+expected values. The charge carrier density came out lower than that
+of other materials, fitting the information we have about the 2DEG
+and what we were told in the lab. Moreover, $\tau_{t}$ is of the
+appropriate scale compared to other materials\cite{Ashcroft}. Another
+thing to note is that when lowering the temperature from $4.2K$ to
+$1.7K$ it can be seen that $\tau_{t}$, on average, becomes longer.
+Meaning there are less collisions in a given period of time. Further
+analysis can be found in the Discussion.\global\long\def\e{\varepsilon}
+
+As was mentioned in the 'Experimental Setup' section, measurements
+under a constant magnetic field and a changing gate voltage were also
+made. The relevant measurement to this section is that under a magnetic
+field of $0.5\,Tesla$. The capacitance of the gate is $C=\frac{Q}{V_{g}}=\frac{Ane}{V_{g}}=\frac{\varepsilon_{0}\e_{r}A}{d}$
+where the last relation is a known capacitor property. By dividing
+both sides by $A$ we get $\frac{ne}{V_{g}}=\frac{\e_{0}\e_{r}}{d}$,
+substituting $ne$ by $\frac{1}{R_{xy}}$, from the classical Hall
+effect, and lastly, multiplying by $V_{g}$ we get the relation:
+
+\begin{equation}
+\frac{1}{R_{xy}}(V_{g})=\frac{\e_{0}\e_{r}}{d}V_{g}\label{eq:ResistanceDistance}
+\end{equation}
+
+where $\e_{0}\e_{r}$ is the permittivity of the sample (taken to
+be the permittivity of $GaAs$), $d$ is the distance of the gate
+from the sample, $V_{g}$ is the gate voltage and $R_{xy}$ is the
+resistance perpendicular to current flow.
+
+A linear fit of the form:
+
+\[
+y=a_{0}+a_{1}x
+\]
+ was made, where $y$ is $\frac{1}{R_{xy}}$, $x$ is $V_{g}$, $a_{1}$
+has a theoretical value of $\frac{\e_{0}\e_{r}}{d}$ and $a_{0}$
+has a theoretical value of $0$ (see Figure \ref{fig:distanceLinear}).
+
+\begin{figure}
+\includegraphics[scale=0.25]{\string"Measurements/xlsx/1st Part/Lin Fit/Fit\string".png}
+
+\caption{A linear fit to $R_{xy}^{-1}$ as a function of $V_{g}$ under a magnetic
+field of $0.5\,Tesla$ \label{fig:distanceLinear}}
+\end{figure}
+
+The fit parameters for the fit are presented in Table \ref{tab:DisanceFitParam}.
+
+\begin{table}
+\begin{tabular}{|c|c|c|c|}
+\hline 
+{\footnotesize{}Parameter} & {\footnotesize{}Value} & {\footnotesize{}Error} & {\footnotesize{}Relative Error}\tabularnewline
+\hline 
+\hline 
+$a_{0}\,[\Omega^{-1}]$ & $1.4952\tt{-3}$ & $3.2\tt{-6}$ & $0.21\text{\%}$\tabularnewline
+\hline 
+$a_{1}\,[\unitfrac{\Omega^{-1}}{Volt}]$ & $1.061\tt{-3}$ & $1.0\times10^{-5}$ & $0.97\text{\%}$\tabularnewline
+\hline 
+$\chi_{red}^{2}$ & $4.3$ & \multicolumn{2}{c|}{{\footnotesize{}------------}}\tabularnewline
+\hline 
+$P_{value}$ & $4.4\tt{-42}$ & \multicolumn{2}{c|}{{\footnotesize{}------------}}\tabularnewline
+\hline 
+\end{tabular}
+
+\caption{Fit parameters for the fit in Figure \ref{fig:distanceLinear}\label{tab:DisanceFitParam}}
+\end{table}
+
+The statistical values are out of their corresponding desired ranges,
+yet Figure \ref{fig:distanceLinear} shows that the a linear fit describes
+the phenomena adequately with some needed tweaks corresponding to
+a higher order polynomial or an oscillating function. Using the permittivity
+of $GaAs$ found in the literature \cite{doi:10.1063/1.363818} and
+Eq. \ref{eq:ResistanceDistance} the distance of the gate from the
+2D electron gas was found to be $d=1.097\tt{-7}\pm1.1\tt{-9}\,[m]$.
+
+\section*{High Field Regime}
+
+Continuing the last section, both $R_{xy}$ and $R_{xx}$ were measured
+under a high magnetic field, up to 5.5 Tesla, while changing the gate
+voltage on the 2D electron gas.
+
+$R_{xy}$'s behavior is described by the Integer Quantum Hall Effect
+and is characterized by plateaus along a linear line. The resistance
+at each plateau is an integer multiple of $R_{K}=\frac{h}{e^{2}}=25800\,\Omega$\cite{BADBOOKTHATISSOMEWHATUSEFULCLAUDE}
+, and because of spin degeneracy,  unless the spin states are separated,
+only even integers are seen.
+
+$R_{xx}$'s behavior is described by Shubnikov--de Haas oscillations,
+which is characterized by big peaks corresponding to Landau Levels
+in $R_{xy}$ and 0 resistances corresponding to the plateaus. 
+
+If one looks at the behavior of $R_{xx}$ vs. $\frac{1}{B}$ all peaks
+should come at a regular interval with decreasing amplitude. By calculating
+that regular interval the carrier density can be found:
+
+\begin{equation}
+n=2\cdot\frac{e}{h\Delta(B^{-1})}\label{eq: finding the charge carrier density from SDH}
+\end{equation}
+
+where $h$ is Planck's constant, $e$ is the elementary charge , $\Delta(B^{-1})$
+is the regular interval between peaks and the $2$ is due to the degeneracy
+caused by spin\cite{BADBOOKTHATISSOMEWHATUSEFULCLAUDE}. 
+
+The charge carrier density was calculated for all gate voltages and
+both temperatures. The peaks for each configuration were found using
+python and have a relative error of about 1\%.
+
+Figure \ref{fig:Peaks in the resistance Rxx to find charge carrier density}
+shows the identified peaks for the measurements under a gate voltage
+of $V_{g}=0.5\,V$ and a temperature of $T=1.7\,K$.
+
+\begin{figure}
+\includegraphics[scale=0.35]{\string"Measurements/xlsx/2nd Part/Peaks/Peaks_Vg=0.5_T=1.7\string".png}
+
+\caption{Plot of $R_{xx}$ as a function of $\frac{1}{B}$ for $V_{g}=0.5\,V$
+and $T=1.7\,K$ with peaks highlighted by red x-es\label{fig:Peaks in the resistance Rxx to find charge carrier density}}
+\end{figure}
+
+As can be seen, the peaks are equidistant from each other with an
+average distance of $\Delta(B^{-1})=0.06988\pm0.00027\,(0.38\%%)
+\,\text{Tesla}^{-1}$.
+
+The extracted carrier densities are presented in Table \ref{tab:Extracted charge carrier density from SDH- QHE}.
+
+\begin{table}
+\begin{tabular}{|c|c|c|}
+\hline 
+$V_{g}\,[V]$ & $T\,[K]$ & $n\,[\unitfrac{10^{15}}{m^{2}}]$\tabularnewline
+\hline 
+\hline 
+$0.5$ & \multirow{3}{*}{$4.2$} & $6.921\pm0.026\,(0.38\%)$\tabularnewline
+\cline{1-1} \cline{3-3} 
+$0$ &  & $4.6875\pm0.0087\,(0.19\%)$\tabularnewline
+\cline{1-1} \cline{3-3} 
+$-0.5$ &  & $2.934\pm0.033\,(1.1\%)$\tabularnewline
+\hline 
+$0.5$ & \multirow{3}{*}{$1.7$} & $6.994\pm0.030\,(0.43\%)$\tabularnewline
+\cline{1-1} \cline{3-3} 
+$0$ &  & $5.012\pm0.080\,(1.6\%)$\tabularnewline
+\cline{1-1} \cline{3-3} 
+$-0.5$ &  & $3.235\pm0.085\,(2.6\%)$\tabularnewline
+\hline 
+\end{tabular}
+
+\caption{Extracted carrier densities for the various configurations\label{tab:Extracted charge carrier density from SDH- QHE}}
+\end{table}
+
+These figures are in great agreement with those extracted using the
+classic Hall effect. Notice that both final calculated densities have
+a higher uncertainty, that is because one of the peaks was a peak
+separated from others by the Zeeman effect corresponding to an odd
+Landau Level (3 and 5).
+
+Note how the amplitude of the peaks is lessened over smaller magnetic
+fields (i.e bigger $\frac{1}{B}$s), the formula for the envelope
+function of the SdH oscillations is \cite{PhysRevB.44.3793}: 
+
+\begin{equation}
+\Delta R(T,B^{-1})=4R_{0}\frac{\unitfrac{2\pi^{2}m^{*}k_{B}T\cdot B^{-1}}{\hbar e}}{\sinh(\unitfrac{2\pi^{2}m^{*}k_{B}T\cdot B^{-1}}{\hbar e})}e^{-\frac{\pi m^{*}}{e\tau_{q}}B^{-1}}\label{eq: Amplitude of oscilations SDH as a function of B and T}
+\end{equation}
+ where $\Delta R$ is the peak difference in resistance, $m^{*}$
+is the electron's effective mass, $k_{B}$ is Boltzmann's constant,
+$T$ is the 2DEG's temperature and $\tau_{q}$ is the scattering time
+corresponding to the dephasing of the Landau state \cite{BADBOOKTHATISSOMEWHATUSEFULCLAUDE}.
+Before fitting the data to the function written above the effective
+mass, $m^{*}$ of the 2DEG has to be extracted. The resistance $R_{xx}$
+was measured for two different temperatures - $T_{1}=1.7K$ and $T_{2}=4.2K$.
+By dividing the amplitude of each peak measured at $T_{2}$ by its
+corresponding peak at $T_{1}$ one can derive
+\begin{equation}
+y=\frac{T_{2}}{T_{1}}\frac{\sinh(\unitfrac{2\pi^{2}m^{*}k_{B}T_{1}B^{-1}}{\hbar e})}{\sinh(\unitfrac{2\pi^{2}m^{*}k_{B}T_{2}B^{-1}}{\hbar e})}e^{-\frac{\pi m^{*}}{e}(\frac{1}{\tau_{q}(T_{2})}-\frac{1}{\tau_{q}(T_{1})})B^{-1}}\label{eq: Ratio between amplitudes in SDH Oscilations to find m*}
+\end{equation}
+where the ratio was defined as $y=\frac{\Delta R(T_{2},B^{-1})}{\Delta R(T_{1},B^{-1})}$
+and it was assumed that the scattering time $\tau_{q}$ is temperature
+dependent. Therefore, by fitting 
+\begin{equation}
+y(x)=a_{0}\frac{sinh(\frac{T_{1}}{T_{2}}a_{1}x)}{sinh(a_{1}x)}e^{-a_{2}x}\label{eq: ratio fits SDH oscilations to find m*}
+\end{equation}
+where $x=\frac{1}{B}$ and the fact that both $\sinh$-s are the same
+apart for the temperature was used, using the fit parameter $a_{1}$,
+the effective mass can be found $m^{*}=\frac{a_{1}\cdot\hbar e}{2\pi^{2}k_{B}\cdot1.7}$
+(see Figure \ref{fig:extracting the effective mass fit})
+\begin{figure}
+\includegraphics[scale=0.3]{\string"Measurements/xlsx/2nd Part/Factors/Vg=0\string".png}
+
+\caption{$y$ VS $\frac{1}{B}$ for $V_{g}=0$\label{fig:extracting the effective mass fit}}
+
+\end{figure}
+The corresponding fit parameters and extracted effective mass are
+(see Table...) 
+\begin{table}
+
+\begin{tabular}{|c|c|c|c|}
+\hline 
+{\footnotesize{}Parameter} & {\footnotesize{}Value} & {\footnotesize{}Error} & {\footnotesize{}Relative Error}\tabularnewline
+\hline 
+\hline 
+$a_{0}\,[1]$ & $1.83$ & $0.98$ & $53\%$\tabularnewline
+\hline 
+$a_{1}\,[Tesla]$ & $1.9$ & $2.1$ & $110\%$\tabularnewline
+\hline 
+$a_{2}\,[Tesla]$ & $2.4$ & $3.5$ & $150\%$\tabularnewline
+\hline 
+$m^{*}\,[10^{-32}kg]$ & $6.8$ & $7.7$ & $110\%$\tabularnewline
+\hline 
+$\chi_{red}^{2}$ & $22$ & \multicolumn{2}{c|}{{\footnotesize{}------------}}\tabularnewline
+\hline 
+$P_{value}$ & $1.1\tt{-25}$ & \multicolumn{2}{c|}{{\footnotesize{}------------}}\tabularnewline
+\hline 
+\end{tabular}\caption{Fit parameters and extract effective mass from the $y$ VS $\frac{1}{B}$
+at $V_{g}=0$ fit\label{tab:fit parameters of the fit from which the effective mass was extracted}}
+
+\end{table}
+
+After finding the effective mass from one of these fits, $\tau_{q}$
+can now be extracted from the data using a fit of the form
+
+\begin{equation}
+\Delta R(T,x)=a_{0}\frac{a_{1}x}{\sinh(a_{1}x)}e^{-a_{2}x}\label{eq: fit for amplitude of oscilations SDH}
+\end{equation}
+was made to the peaks of each configuration after the average resistance
+at a very low field was subtracted. Using the fitted parameters the
+quantities $\tau_{q}$ can be calculated
+\begin{equation}
+\tau_{q}=\frac{\pi m^{*}}{ea_{2}}\label{eq: finding tau q from the SDH oscilations fit to the amplitude}
+\end{equation}
+
+Figure \ref{fig:R_xx as a function of B^-1 - SDH OSCILATIONS AMPLITUDE FIT FROM WHICH TAU was extracted}
+shows one of the fits, which represents all others quite well in goodness
+of fit.
+
+\begin{figure}
+\includegraphics[scale=0.35]{\string"Measurements/xlsx/2nd Part/Peaks/PeaksPlot_Vg=-0.5_T=1.7\string".png}
+
+\caption{Plot of $R_{xx}$ as a function of $B^{-1}$ with resistance peaks
+represented as red x-es. A fit to the envelope function was made and
+is represented in orange\label{fig:R_xx as a function of B^-1 - SDH OSCILATIONS AMPLITUDE FIT FROM WHICH TAU was extracted}}
+\end{figure}
+The extracted $\tau_{q}$ values and their comparison with $\tau_{t}$
+are shown in Table \ref{tab:tau_q values extracted from fits}
+\begin{table}
+{\footnotesize{}}%
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline 
+{\footnotesize{}$V_{g}\,[V]$} & {\footnotesize{}$T\,[K]$} & {\footnotesize{}$\tau_{q}[10^{-12}s]$} & {\footnotesize{}$\frac{\tau_{t}}{\tau_{q}}$} & {\footnotesize{}$\chi_{red}^{2}$} & {\footnotesize{}$P_{value}$}\tabularnewline
+\hline 
+\hline 
+{\footnotesize{}$0.5$} & \multirow{3}{*}{{\footnotesize{}$4.2$}} & {\footnotesize{}$1.19\pm0.20(17\%)$} & {\footnotesize{}$7.7$} & {\footnotesize{}$1.6$} & {\footnotesize{}$0.099$}\tabularnewline
+\cline{1-1} \cline{3-6} 
+{\footnotesize{}$0$} &  & {\footnotesize{}$0.545\pm0.026(4.8\%)$} & {\footnotesize{}$12$} & {\footnotesize{}$1.0$} & {\footnotesize{}$0.14$}\tabularnewline
+\cline{1-1} \cline{3-6} 
+{\footnotesize{}$-0.5$} &  & {\footnotesize{}$1.04\pm0.17(16\%)$} & {\footnotesize{}$3.3$} & {\footnotesize{}$0.61$} & {\footnotesize{}$0.68$}\tabularnewline
+\hline 
+{\footnotesize{}$0.5$} & \multirow{3}{*}{{\footnotesize{}$1.7$}} & {\footnotesize{}$0.3684\pm0.0094(2.6\%)$} & {\footnotesize{}$28$} & {\footnotesize{}$0.68$} & {\footnotesize{}$0.61$}\tabularnewline
+\cline{1-1} \cline{3-6} 
+{\footnotesize{}$0$} &  & {\footnotesize{}$0.448\text{\ensuremath{\pm0.016}}(3.6\%)$} & {\footnotesize{}$16$} & {\footnotesize{}$0.35$} & {\footnotesize{}$0.98$}\tabularnewline
+\cline{1-1} \cline{3-6} 
+{\footnotesize{}$-0.5$} &  & {\footnotesize{}$0.4156\pm0.0036(0.87\%)$} & {\footnotesize{}$8.3$} & {\footnotesize{}$0.40$} & {\footnotesize{}$0.94$}\tabularnewline
+\hline 
+\end{tabular}\caption{$\tau_{q}$ extracted from SDH oscillations fit of $R_{xx}$ VS $\frac{1}{B}$\label{tab:tau_q values extracted from fits}}
+
+\end{table}
+ On average $\tau_{q}$ is smaller than $\tau_{t}$ in about one order
+of magnitude. Further analysis is presented in the Discussion.
+
+\section{Quantum Hall Regime}
+
+In this part of the experiment the plateaus in the $R_{xy}$ graph
+(see Figure \ref{fig:QHE- graphs from the book}) were extracted and
+their corresponding resistance value was used in order to extract
+the filling factor $\nu$ using the equation \cite{BADBOOKTHATISSOMEWHATUSEFULCLAUDE}
+\begin{equation}
+R_{xy}=\frac{1}{\nu}\frac{h}{e^{2}}\label{eq: QHE Filling factor equation}
+\end{equation}
+where $h$ is the Planck constant. First of all the plateaus in each
+set of measurements were identified (see Figures \ref{fig:Rxy vs B - QHE - Filling factor graph 4.2}
+and \ref{fig:Rxy vs B - QHE - Filling factor graph 1.7}, other configurations
+are similar.)
+\begin{figure}
+\includegraphics[scale=0.3]{\string"Measurements/xlsx/2nd Part/Plateaus/Plateau_Vg=0.5_T=4.2\string".png}\caption{$R_{xy}$VS $B$ with $T=4.2K$ and $V_{G}=0.5V$. The plateaus are
+labeled in red. \label{fig:Rxy vs B - QHE - Filling factor graph 4.2}}
+\end{figure}
+
+\begin{figure}
+\includegraphics[scale=0.3]{\string"Measurements/xlsx/2nd Part/Plateaus/Plateau_Vg=0.5_T=1.7\string".png}\caption{$R_{xy}$VS $B$ with $T=1.7K$ and $V_{G}=0.5V$ . The plateaus are
+labeled in red. \label{fig:Rxy vs B - QHE - Filling factor graph 1.7}}
+\end{figure}
+The filling factors extracted for each graph can be seen in Table
+\ref{tab:Filling-Factor Table for every temp and voltage gate}
+\begin{table}
+\begin{tabular}{|c|c|c|}
+\hline 
+\multicolumn{3}{|c|}{{\footnotesize{}Filling Factors Table}}\tabularnewline
+\hline 
+\hline 
+{\footnotesize{}$T[K]$} & {\footnotesize{}$V_{G}[V]$} & {\footnotesize{}First Extracted $\nu$-s}\tabularnewline
+\hline 
+\multirow{3}{*}{{\footnotesize{}$4.2$}} & {\footnotesize{}$-0.5$} & {\footnotesize{}$8.10,6.08,4.08,2.09$}\tabularnewline
+\cline{2-3} 
+ & {\footnotesize{}$0$} & {\footnotesize{}$10.12,8.10,6.07,4.06$}\tabularnewline
+\cline{2-3} 
+ & {\footnotesize{}$0.5$} & {\footnotesize{}$12.13,10.14,8.13,6.11$}\tabularnewline
+\hline 
+\multirow{3}{*}{{\footnotesize{}$1.7$}} & {\footnotesize{}$-0.5$} & {\footnotesize{}$6.08,4.07,3.05,2.06$}\tabularnewline
+\cline{2-3} 
+ & {\footnotesize{}$0$} & {\footnotesize{}$8.09,6.07,5.08,4.06$}\tabularnewline
+\cline{2-3} 
+ & {\footnotesize{}$0.5$} & {\footnotesize{}$12.13,10.14,8.13,6.11$}\tabularnewline
+\hline 
+\end{tabular}
+
+\caption{Filling Factor $\nu$ for each temperature and voltage gate\label{tab:Filling-Factor Table for every temp and voltage gate}}
+
+\end{table}
+For all graphs the filling factor $\nu$ came out quite close to an
+integer value. For $T=4.2K$, $\nu$ is even, as was expected due
+to spin degeneracy and as was explained in previous sections. However,
+for $T=1.7K$, $\nu$ took on odd values as well. This is due to the
+spin degeneracy being lifted as a result of the spin interaction with
+the magnetic field- Zeeman effect \cite{SAKURAI}. Further analysis
+can be found in the discussion. After extracting the filling factors
+both $R_{xx}$and $R_{xy}$ were plotted VS the voltage gate $V_{g}$
+at a constant magnetic field of $B=5T$ yielding (see Figures \ref{fig:-vs-RXX5Tesla}
+and \ref{fig:-vs-RXY5Tesla})
+\begin{figure}
+\includegraphics[scale=0.3]{\string"Measurements/xlsx/3rd Part/RxxAt5Tesla\string".png}
+
+\caption{$R_{xx}$ vs $V_{g}$ at a magnetic field of 5 Tesla for both temperatures.
+Orange- 4.2K and blue- 1.7K\label{fig:-vs-RXX5Tesla}}
+\end{figure}
+\begin{figure}
+\includegraphics[scale=0.3]{\string"Measurements/xlsx/3rd Part/RxyAt5Tesla\string".png}
+
+\caption{$R_{xy}$ vs $V_{g}$ at a magnetic field of 5 Tesla for both temperatures.
+Orange- 4.2K and blue- 1.7K\label{fig:-vs-RXY5Tesla}}
+\end{figure}
+For both temperatures the change in voltage gate led to a change in
+the highest Landau level being occupied. This can be identified in
+$R_{xy}$ by noticing the plateau at around $V_{g}=-0.1V$ for $T=1.7K$
+or around $V_{g}=0.1V$ for $T=4.2K$. A part of SDH oscillations
+can also be spotted in $R_{xx}-$at corresponding values of the voltage
+gate a sudden drop in resistance can be noticed. Further analysis
+at the Discussion.
+
+\part{Discussion}
+
+\section*{Sheet Resistance VS Temperature}
+
+In this part of the experiment the sheet resistance $R_{xx}$ was
+fitted according to the model of two resistors connected in parallel,
+one is the 2DEG and the other is a semiconductor. Each of these resistors
+behaves differently under temperature change and become dominant in
+different temperature regions. We used this information in order to
+perform 2 fits- one in high temperatures and the other in low temperatures.
+Using the fit parameters extracted from these two fits another plot
+was made for the entire region using \ref{eq: PARALLEL RESISTORS, SC AND PHONON}
+yielding Figure \ref{fig:1/R vs T for the entire region using all the measurements}.
+As was mentioned previously it can be seen that the model describes
+the phenomena adequately. It can be seen, however, that in the middle
+of the graph (around $T=160K$) there is somewhat of an inconsistency
+between the function and the original measurements. The functions
+seems somewhat ``delayed'' compared with the measurements. A source
+for this problem could be that the two previously mentioned fits,
+each in its respective regions, were still effected by the existence
+of the other region; i.e. in low temperatures, towards temperatures
+of about $T\sim100K$, the semiconductor would still have an effect
+on the fit that was not taken into account. The same thing can be
+said about higher temperatures of about $T\sim200K$ where the 2DEG
+affects the fit for the semiconductor. This explanation is also validated
+by the two fits \ref{fig:Resistivity-VS-Temperature HIGH TEMP REGION}
+and \ref{fig:Resistivity-VS-Temperature LOW TEMP REGION} where towards
+the middle range temperature (between $100-200K)$ the measurements
+in both fits seem to deviate from the fitted function, also leading
+to the somewhat inadequate statistical values extracted from these
+fits. Regardless, the model we used in this part of the experiment
+seems to work well in describing the change of the resistance with
+temperature.
+
+\section*{Low Field Regime}
+
+Using the classical Hall Effect in equation \ref{eq: Classical Hall Effect main equation},
+Drude model and by measuring $R_{xx},R_{xy}$ in low magnetic fields,
+the charge carrier density, $n$, the free time between collision,
+$\tau_{t}$ and the mobility of the charge carrier, $\mu$, were all
+extracted at different temperatures and voltage gates. In all graphs
+it can be seen that the linear fit describes the dependency of the
+resistance in the magnetic field for low fields quite well. The good
+fit with lacking statistical parameters suggest an under-estimation
+of uncertainty. Regardless, the fits were adequate and the extracted
+values are in line with what we expected. The charge carrier density
+changes with the voltage gate in an expected manner- higher voltage
+gate leads to higher charge carrier density (and not the opposite
+- since the electrons have negative charge).\\
+In the second part of the Low Field Regime section we tried to extract
+the distance of the gate from the sample. The statistical parameters
+were outside their desired ranges, as the fit is overall very good,
+this is likely because of the very small uncertainty in the measurements.
+The extracted distance is of the a scale likely to be used in this
+experiment. As we do not know the real distance, no comparison can
+be made.
+
+\section*{High Field Regime}
+
+In this section of the experiment we analyzed the behavior of the
+2D electron gas under a high magnetic field ($B>0.5\,Tesla$). We
+observed Landau Levels, the integer quantum Hall effect and Shubnikov--de
+Haas oscillations. We started by extracting the carrier densities
+for different temperatures and gate voltages. These can be compared
+to the carrier densities extracted using the classical Hall effect
+and are at a distance of $1\%$ to $10\%$ at worst. Do also note
+that the carrier density is directly correlated with gate voltage,
+the higher the gate voltage the higher the carrier density, just as
+it was in the low field regime. This is in great agreement with the
+theory. Afterwards, using the peaks of the oscillations and the known
+envelope function we attempted to extract the effective mass and quantum
+lifetime. The effective mass of the 2DEG came out close to the theoretical
+value however, it has a large uncertainty. Using the effective mass
+and by performing several fits, the quantum lifetime was extracted
+for different temperatures and voltage gates. The fits from which
+$\tau_{q}$ was extracted were quite good, yielding good statistical
+values. Comparing the extracted values of $\tau_{q}$ to those in
+the literature \cite{QuantumLifetime} yielded good results as they
+are of the same magnitude. However, it is clear there is some difference
+between the values, this can also be demonstrated in the ratio $\unitfrac{\tau_{t}}{\tau_{q}}$
+which came out smaller compared to \cite{QuantumLifetime}. An explanation
+for these inconsistencies could be that the temperature was not constant
+throughout the measurements. When the measurements for $T=1.7K$ were
+made, $T$ was not always constant, as a matter of fact it got lower
+throughout our measurements in a way we could not control. The changing
+temperature has a great effect on the fit from which the effective
+mass was extracted as it was assumed that the two temperatures were
+constant. If the temperatures changed between peaks, a fit that assumes
+otherwise will not be as good. A possible explanation for the difference
+in goodness of fit between the effective mass and the quantum lifetime
+portion is the general behavior of the fitting functions. The function
+$\frac{ax}{sinh(ax)}$ decays, a larger $a$ leads to a faster decay
+rate. Multiplying this function by a decaying exponent yields $\frac{ax}{sinh(ax)}e^{-bx}$
+(which is the function fitted to find $\tau_{q}$). Since these are
+two decaying functions, both of which decay exponentially, over a
+short enough sample, it can be quite well approximated as $Ae^{-Cx}$
+where $C$ takes into consideration both decay rates. This practically
+means that the first decaying function is quite redundant and that
+it has little effect on how well the fit could be (as a matter of
+fact we tried fitting the peaks of $R_{xx}$ to a decaying exponent
+which led to just as good fits). As a result, the small temperature
+changes would have almost no effect on the quality of the fit, but
+they will alter the decay rates, that are directly connected to $\tau_{q}$.
+Conversely, in order to find $m^{*}$ a fit of the form $\frac{sinh(ax)}{sinh(bx)}e^{-cx}$
+was made. Unlike the first case, these are not two decaying functions
+multiplied by each other and the part of $\frac{sinh(ax)}{sinh(bx)}$
+could not be replaced by the exponent as before. As a result, the
+changes in temperature had a genuine effect on that fit.
+
+\section*{Quantum Hall Regime}
+
+The first few filling factors in different graphs of $R_{xy}$ vs
+$B$ for different temperatures and voltage gates were extracted.
+The extracted values are quite close to integer values, fitting the
+theory. In addition to that, they are almost all even, fitting the
+spin degeneracy that disables odd filling factors. Only for $T=1.7K$,
+where the Zeeman effect becomes more dominant, can the spin degeneracy
+be lifted and odd filling factors are extracted. Some filling factors
+are not as close to integral values as we would have wanted them to
+be. The somewhat inconsistent values could be the result of inaccurate
+measurement of the resistance by the lock-in amplifier. An additional
+cause may be impurities and other types of scattering events not accounted
+for which are amplified with increasing temperatures. Moving on to
+the two graphs of $R_{xx}$ and $R_{xy}$ VS $V_{g}$; it was established
+above that a change in the highest occupied Landau level occurs- for
+$R_{xy}$ a plateau can be seen, and for $R_{xx}$ there is a clear
+dip in the resistance (and at $T=1.7K$ the Zeeman effect can also
+be noticed at the region of the dip in resistance). The reason why
+the highest occupied Landau level changes is because the Fermi level
+changes. As shown in previous sections, the charge carrier density
+becomes greater for higher voltage gates. The Fermi level also becomes
+higher when the charge carrier density becomes greater, leading it
+to eventually pass by a Landau level and cause the effect shown above.
+
+\bibliographystyle{plain}
+\bibliography{\string"2DEG report- bibtex\string"}
+
+\end{document}

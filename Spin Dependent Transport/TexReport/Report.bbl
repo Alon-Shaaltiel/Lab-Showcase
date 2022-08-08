@@ -1,0 +1,44 @@
+\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
+\begin{thebibliography}{1}
+
+\bibitem{BERGMAN}
+Gerd Bergman.
+\newblock {\em Physics Today}, 32, 1979.
+
+\bibitem{NICKELCURIETEMP}
+B.Legendre and M.Sghaier.
+\newblock {\em Springer}, 2011.
+
+\bibitem{OHANDLEY}
+Robert C.O'Handley.
+\newblock {\em Modern Magnetic Materials Principles and Applications}.
+\newblock JOHN WBkEY and SONS, INC, 2000.
+
+\bibitem{stupidarticle}
+M.S Miller, F.E Stageberg, Y.M Chow, K.Rook, and L.A. Heuer.
+\newblock {\em J.Appl}, 75, 1994.
+
+\bibitem{SAKURAI}
+J.J. Sakurai and Jim Napolitano.
+\newblock {\em Modern Quantum Mechanics Second Edition}.
+\newblock Pearson, 2011.
+
+\bibitem{NICKELSUSCEP}
+John~F. Schenck.
+\newblock {\em Medical Physics}, 23, 1996.
+
+\bibitem{StevenSimon}
+Steven~H. Simon.
+\newblock {\em The Oxford Solid State Basics}.
+\newblock OXFORD University Press, 2013.
+
+\bibitem{SPALDIN}
+Nicola~A. Spaldin.
+\newblock {\em Magneitc Materials Fundamentals and Applications}.
+\newblock Cambridge University Press, 2011.
+
+\bibitem{NICKELCRYSTALSTRUCT}
+G.P. Thomson.
+\newblock {\em Nature}, 123, 1929.
+
+\end{thebibliography}

@@ -1,0 +1,61 @@
+\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
+\begin{thebibliography}{10}
+
+\bibitem{FirstdocumenteduseofCrypto}
+Cypher Research Laboratories~Pty. Ltd.
+\newblock A brief history of cryptography.
+\newblock http://www.cypher.com.au/crypto\_history.htm.
+\newblock Accesed on 14/6/2022.
+
+\bibitem{Cryptodorigins}
+G.~C. Kessler.
+\newblock {\em An Overview of Cryptography}.
+\newblock 2006.
+
+\bibitem{CryptoKeys}
+R.~Din J.~I.~Ahmed and M.~Ahmed.
+\newblock {\em Indonesian Journal of Electrical Engineering and Computer
+  Science}, 12:447--454, 2018.
+
+\bibitem{QuantumCryptoOrigin}
+W.~Tittel N.~Gisin, G.~Ribordy and H.~Zbinden.
+\newblock {\em Review Of Modern Physics}, 74, 2002.
+
+\bibitem{ORIGINALBB84}
+G.~Brassard C.H.~Bennett.
+\newblock {\em International Conference on Computers, Systems \&\ Signal
+  Processing}, 1, 1984.
+
+\bibitem{BB84SECURETheory}
+P.~W. Shor and J.Preskill.
+\newblock {\em Physical Review Letters}, 85:441--444, 2000.
+
+\bibitem{BB84SECUREExperiment}
+N.~Lutkenhaus W.~Wang.
+\newblock Numerical security proof for decoy-state bb84 and
+  measurement-device-independent qkd resistant against large basis
+  misalignment.
+\newblock August 2021.
+
+\bibitem{BB84Satellite}
+S.K.~Liao et~al.
+\newblock {\em Nature}, 549:43--47, 2017.
+
+\bibitem{BB84underwater1}
+S.Li Z.~Feng and Z.Xu.
+\newblock {\em Optics Express}, 29:8725--8736, 2021.
+
+\bibitem{BB84underwater2}
+S.~Dong et~al.
+\newblock Practical underwater quantum key distribution based on decoy-state
+  bb84 protocol.
+\newblock Mars 2022.
+
+\bibitem{9225317}
+Adarsh Jain, Abhishek Khanna, Jay Bhatt, Parthkumar~V Sakhiya, and R~K Bahl.
+\newblock Experimental demonstration of free space quantum key distribution
+  system based on the bb84 protocol.
+\newblock In {\em 2020 11th International Conference on Computing,
+  Communication and Networking Technologies (ICCCNT)}, pages 1--5, 2020.
+
+\end{thebibliography}

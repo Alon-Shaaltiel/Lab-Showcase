@@ -1,0 +1,706 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.9)  3 APR 2022 19:51
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/alon4/Dropbox/Labs/Lab C1/2D Electron Transport/TexReport/2DEG-Report.tex"
+(c:/Users/alon4/Dropbox/Labs/Lab C1/2D Electron Transport/TexReport/2DEG-Report.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2021-11-22> (C:\Program Files\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+ (C:\Program Files\MiKTeX\tex/latex/base\latin9.def
+File: latin9.def 2021/02/14 v1.3d Input encoding file
+)) (C:\Users\alon4\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count191
+\Gm@cntv=\count192
+\c@Gm@tempcnt=\count193
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks19
+ (C:\Users\alon4\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen147
+\ar@mcellbox=\box50
+\extrarowheight=\dimen148
+\NC@list=\toks20
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box51
+) (C:\Users\alon4\AppData\Roaming\MiKTeX\tex/latex/units\units.sty
+Package: units 1998/08/04 v0.9b Typesetting units
+ (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+) (C:\Users\alon4\AppData\Roaming\MiKTeX\tex/latex/units\nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip51
+\L@UnitsRaiseTextstyle=\skip52
+\L@UnitsRaiseScriptstyle=\skip53
+)) (C:\Users\alon4\AppData\Roaming\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip54
+\multirow@cntb=\count194
+\multirow@dima=\skip55
+\bigstrutjot=\dimen149
+) (C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen150
+)) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen151
+\Gin@req@width=\dimen152
+) (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2021/11/29 3.67 The Babel package
+\babel@savecnt=\count195
+\U@D=\dimen153
+\l@unhyphenated=\language79
+ (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count196
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Program Files\MiKTeX\tex/latex/babel-english\american.ldf
+Language: american 2017/06/06 v3.3r English support from the babel system
+ (C:\Program Files\MiKTeX\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+))) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count197
+\l__pdf_internal_box=\box52
+)
+No file 2DEG-Report.aux.
+\openout1 = `2DEG-Report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(42.67912pt, 528.93675pt, 42.67912pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=528.93675pt
+* \textheight=556.47656pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count198
+\scratchdimen=\dimen154
+\scratchbox=\box53
+\nofMPsegments=\count199
+\nofMParguments=\count266
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count267
+\MPscratchDim=\dimen155
+\MPnumerator=\count268
+\makeMPintoPDFobject=\count269
+\everyMPtoPDFconversion=\toks23
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: Citation `StevenSimon' on page 1 undefined on input line 56.
+
+
+LaTeX Warning: Citation `BADBOOKTHATISSOMEWHATUSEFULCLAUDE' on page 1 undefined on input line 61.
+
+
+LaTeX Warning: Citation `StevenSimon' on page 1 undefined on input line 65.
+
+
+LaTeX Warning: Citation `BADBOOKTHATISSOMEWHATUSEFULCLAUDE' on page 1 undefined on input line 85.
+
+
+LaTeX Warning: Citation `BADBOOKTHATISSOMEWHATUSEFULCLAUDE' on page 1 undefined on input line 88.
+
+
+LaTeX Warning: File `"QHE GRAPHS - FROM THE BOOKS".jpg' not found on input line 92.
+
+
+c:/Users/alon4/Dropbox/Labs/Lab C1/2D Electron Transport/TexReport/2DEG-Report.tex:92: Package pdftex.def Error: File `QHE GRAPHS - FROM THE BOOKS.jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 ...g"QHE GRAPHS - FROM THE BOOKS\string".jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 92.
+(C:\Program Files\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+
+LaTeX Warning: Citation `anactualusefulbookbySPRINGER' on page 1 undefined on input line 95.
+
+
+LaTeX Warning: Citation `anactualusefulbookbySPRINGER' on page 1 undefined on input line 95.
+
+[1{C:/Users/alon4/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+
+
+]
+
+LaTeX Warning: Reference `fig:Reperesentation of Sample' on page 2 undefined on input line 116.
+
+
+LaTeX Warning: File `"Images/Sample Graph".png' not found on input line 151.
+
+
+c:/Users/alon4/Dropbox/Labs/Lab C1/2D Electron Transport/TexReport/2DEG-Report.tex:151: Package pdftex.def Error: File `Images/Sample Graph.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.151 ...{\string"Images/Sample Graph\string".png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:Experimental-Setup DEWAR AND PUMP' on page 2 undefined on input line 170.
+
+
+LaTeX Warning: File `"Images/Experimental Setup".jpg' not found on input line 172.
+
+
+c:/Users/alon4/Dropbox/Labs/Lab C1/2D Electron Transport/TexReport/2DEG-Report.tex:172: Package pdftex.def Error: File `Images/Experimental Setup.jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 ...ng"Images/Experimental Setup\string".jpg}
+                                                  \caption{Experimental Setu...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[2]
+
+LaTeX Warning: Citation `StevenSimon' on page 3 undefined on input line 202.
+
+
+LaTeX Warning: Citation `electricitystuffusedfromresistancesinparallel' on page 3 undefined on input line 218.
+
+
+LaTeX Warning: Reference `eq: Resistance as a function of Temp phonons' on page 3 undefined on input line 225.
+
+
+LaTeX Warning: Reference `eq: Resistance as a function of Temp SC' on page 3 undefined on input line 226.
+
+
+LaTeX Warning: File `"Measurements/xlsx/1st Part/Changing Temperature Graphs/RVSTFullRange".jpg' not found on input line 232.
+
+
+c:/Users/alon4/Dropbox/Labs/Lab C1/2D Electron Transport/TexReport/2DEG-Report.tex:232: Package pdftex.def Error: File `Measurements/xlsx/1st Part/Changing Temperature Graphs/RVSTFullRange.jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.232 ...erature Graphs/RVSTFullRange\string".jpg}
+                                                  \caption{Resistance VS Tem...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `"Measurements/xlsx/1st Part/Changing Temperature Graphs/rvstsc_fitting".png' not found on input line 239.
+
+
+c:/Users/alon4/Dropbox/Labs/Lab C1/2D Electron Transport/TexReport/2DEG-Report.tex:239: Package pdftex.def Error: File `Measurements/xlsx/1st Part/Changing Temperature Graphs/rvstsc_fitting.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.239 ...rature Graphs/rvstsc_fitting\string".png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `"Measurements/xlsx/1st Part/Changing Temperature Graphs/rvstphonon_fitting".png' not found on input line 268.
+
+
+c:/Users/alon4/Dropbox/Labs/Lab C1/2D Electron Transport/TexReport/2DEG-Report.tex:268: Package pdftex.def Error: File `Measurements/xlsx/1st Part/Changing Temperature Graphs/rvstphonon_fitting.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268 ...re Graphs/rvstphonon_fitting\string".png}
+                                                  \caption{Resistivity VS Te...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `eq: Resistance as a function of Temp phonons' on page 3 undefined on input line 298.
+
+
+LaTeX Warning: Reference `eq: Resistance as a function of Temp SC' on page 3 undefined on input line 298.
+
+
+LaTeX Warning: Reference `eq: PARALLEL RESISTORS, SC AND PHONON' on page 3 undefined on input line 299.
+
+
+LaTeX Warning: Reference `fig:1/R vs T for the entire region using all the measurements' on page 3 undefined on input line 301.
+
+
+LaTeX Warning: File `"Measurements/xlsx/1st Part/TotalResistance_vs_Temp".png' not found on input line 303.
+
+
+c:/Users/alon4/Dropbox/Labs/Lab C1/2D Electron Transport/TexReport/2DEG-Report.tex:303: Package pdftex.def Error: File `Measurements/xlsx/1st Part/TotalResistance_vs_Temp.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.303 ...Part/TotalResistance_vs_Temp\string".png}
+                                                  \caption{$\frac{1}{R_{xx}}...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `eq: PARALLEL RESISTORS, SC AND PHONON' on page 3 undefined on input line 307.
+
+
+LaTeX Warning: Reference `eq: Resistance as a function of Temp phonons' on page 3 undefined on input line 307.
+
+
+LaTeX Warning: Reference `eq: Resistance as a function of Temp SC' on page 3 undefined on input line 307.
+
+
+LaTeX Warning: Reference `eq: PARALLEL RESISTORS, SC AND PHONON' on page 3 undefined on input line 307.
+
+
+LaTeX Warning: Reference `eq: Resistance as a function of Temp phonons' on page 3 undefined on input line 307.
+
+
+LaTeX Warning: Reference `eq: Resistance as a function of Temp SC' on page 3 undefined on input line 307.
+
+[3]
+
+LaTeX Warning: Citation `StevenSimon' on page 4 undefined on input line 319.
+
+
+LaTeX Warning: Reference `eq: Classical Hall Effect main equation' on page 4 undefined on input line 323.
+
+
+LaTeX Warning: Citation `StevenSimon' on page 4 undefined on input line 336.
+
+
+LaTeX Warning: Citation `StevenSimon' on page 4 undefined on input line 341.
+
+
+LaTeX Warning: Reference `fig:Classical-Hall-Effect R_xy vs B at T=00003D4.2K' on page 4 undefined on input line 346.
+
+
+LaTeX Warning: File `"Measurements/xlsx/2nd Part/Classical Hall Effect/4.2K/linear_fittingminus05".png' not found on input line 349.
+
+
+c:/Users/alon4/Dropbox/Labs/Lab C1/2D Electron Transport/TexReport/2DEG-Report.tex:349: Package pdftex.def Error: File `Measurements/xlsx/2nd Part/Classical Hall Effect/4.2K/linear_fittingminus05.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.349 ...t/4.2K/linear_fittingminus05\string".png}
+                                                  \caption{Classical Hall Ef...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `tab:Fit-Parameters CLASSICAL HALL EFFECT T=00003D4.2K' on page 4 undefined on input line 353.
+
+
+LaTeX Warning: Reference `tab:ExtractValues CLASSICAL HALL EFFECT T=00003D4.2K' on page 4 undefined on input line 354.
+
+
+Overfull \hbox (0.594pt too wide) in paragraph at lines 374--386
+[][] 
+ []
+
+
+LaTeX Warning: Reference `fig:Classical-Hall-Effect R_xy vs B at T=00003D1.7K' on page 4 undefined on input line 390.
+
+
+LaTeX Warning: File `"Measurements/xlsx/2nd Part/Classical Hall Effect/1.7K/VG=0.5/linear_fitting".png' not found on input line 393.
+
+
+c:/Users/alon4/Dropbox/Labs/Lab C1/2D Electron Transport/TexReport/2DEG-Report.tex:393: Package pdftex.def Error: File `Measurements/xlsx/2nd Part/Classical Hall Effect/1.7K/VG=0.5/linear_fitting.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.393 ...t/1.7K/VG=0.5/linear_fitting\string".png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `tab:Fit-Parameters CLASSICAL HALL EFFECT T=00003D1.7K' on page 4 undefined on input line 398.
+
+
+LaTeX Warning: Citation `Ashcroft' on page 4 undefined on input line 441.
+
+[4]
+
+LaTeX Warning: Reference `fig:distanceLinear' on page 5 undefined on input line 472.
+
+
+LaTeX Warning: File `"Measurements/xlsx/1st Part/Lin Fit/Fit".png' not found on input line 475.
+
+
+c:/Users/alon4/Dropbox/Labs/Lab C1/2D Electron Transport/TexReport/2DEG-Report.tex:475: Package pdftex.def Error: File `Measurements/xlsx/1st Part/Lin Fit/Fit.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.475 ...ts/xlsx/1st Part/Lin Fit/Fit\string".png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `tab:DisanceFitParam' on page 5 undefined on input line 481.
+
+
+LaTeX Warning: Reference `fig:distanceLinear' on page 5 undefined on input line 499.
+
+
+LaTeX Warning: Reference `fig:distanceLinear' on page 5 undefined on input line 503.
+
+
+LaTeX Warning: Citation `doi:10.1063/1.363818' on page 5 undefined on input line 506.
+
+
+LaTeX Warning: Reference `eq:ResistanceDistance' on page 5 undefined on input line 507.
+
+[5]
+
+LaTeX Warning: Citation `BADBOOKTHATISSOMEWHATUSEFULCLAUDE' on page 6 undefined on input line 518.
+
+
+LaTeX Warning: Citation `BADBOOKTHATISSOMEWHATUSEFULCLAUDE' on page 6 undefined on input line 536.
+
+
+LaTeX Warning: Reference `fig:Peaks in the resistance Rxx to find charge carrier density' on page 6 undefined on input line 542.
+
+
+LaTeX Warning: File `"Measurements/xlsx/2nd Part/Peaks/Peaks_Vg=0.5_T=1.7".png' not found on input line 547.
+
+
+c:/Users/alon4/Dropbox/Labs/Lab C1/2D Electron Transport/TexReport/2DEG-Report.tex:547: Package pdftex.def Error: File `Measurements/xlsx/2nd Part/Peaks/Peaks_Vg=0.5_T=1.7.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.547 ...art/Peaks/Peaks_Vg=0.5_T=1.7\string".png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `tab:Extracted charge carrier density from SDH- QHE' on page 6 undefined on input line 557.
+
+
+LaTeX Warning: Citation `PhysRevB.44.3793' on page 6 undefined on input line 590.
+
+
+LaTeX Warning: Citation `BADBOOKTHATISSOMEWHATUSEFULCLAUDE' on page 6 undefined on input line 598.
+
+[6]
+
+LaTeX Warning: Reference `fig:extracting the effective mass fit' on page 7 undefined on input line 616.
+
+
+LaTeX Warning: File `"Measurements/xlsx/2nd Part/Factors/Vg=0".png' not found on input line 618.
+
+
+c:/Users/alon4/Dropbox/Labs/Lab C1/2D Electron Transport/TexReport/2DEG-Report.tex:618: Package pdftex.def Error: File `Measurements/xlsx/2nd Part/Factors/Vg=0.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.618 ...s/xlsx/2nd Part/Factors/Vg=0\string".png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:R_xx as a function of B^-1 - SDH OSCILATIONS AMPLITUDE FIT FROM WHICH TAU was extracted' on page 7 undefined on input line 662.
+
+
+LaTeX Warning: File `"Measurements/xlsx/2nd Part/Peaks/PeaksPlot_Vg=-0.5_T=1.7".png' not found on input line 667.
+
+
+c:/Users/alon4/Dropbox/Labs/Lab C1/2D Electron Transport/TexReport/2DEG-Report.tex:667: Package pdftex.def Error: File `Measurements/xlsx/2nd Part/Peaks/PeaksPlot_Vg=-0.5_T=1.7.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ...eaks/PeaksPlot_Vg=-0.5_T=1.7\string".png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `tab:tau_q values extracted from fits' on page 7 undefined on input line 674.
+
+
+LaTeX Warning: Reference `fig:QHE- graphs from the book' on page 7 undefined on input line 703.
+
+
+LaTeX Warning: Citation `BADBOOKTHATISSOMEWHATUSEFULCLAUDE' on page 7 undefined on input line 705.
+
+
+LaTeX Warning: Reference `fig:Rxy vs B - QHE - Filling factor graph 4.2' on page 7 undefined on input line 710.
+
+
+LaTeX Warning: Reference `fig:Rxy vs B - QHE - Filling factor graph 1.7' on page 7 undefined on input line 711.
+
+
+LaTeX Warning: File `"Measurements/xlsx/2nd Part/Plateaus/Plateau_Vg=0.5_T=4.2".png' not found on input line 714.
+
+
+c:/Users/alon4/Dropbox/Labs/Lab C1/2D Electron Transport/TexReport/2DEG-Report.tex:714: Package pdftex.def Error: File `Measurements/xlsx/2nd Part/Plateaus/Plateau_Vg=0.5_T=4.2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.714 ...lateaus/Plateau_Vg=0.5_T=4.2\string".png}
+                                                  \caption{$R_{xy}$VS $B$ wi...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `"Measurements/xlsx/2nd Part/Plateaus/Plateau_Vg=0.5_T=1.7".png' not found on input line 719.
+
+
+c:/Users/alon4/Dropbox/Labs/Lab C1/2D Electron Transport/TexReport/2DEG-Report.tex:719: Package pdftex.def Error: File `Measurements/xlsx/2nd Part/Plateaus/Plateau_Vg=0.5_T=1.7.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.719 ...lateaus/Plateau_Vg=0.5_T=1.7\string".png}
+                                                  \caption{$R_{xy}$VS $B$ wi...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `tab:Filling-Factor Table for every temp and voltage gate' on page 7 undefined on input line 723.
+
+
+LaTeX Warning: Citation `SAKURAI' on page 7 undefined on input line 754.
+
+
+LaTeX Warning: Reference `fig:-vs-RXX5Tesla' on page 7 undefined on input line 757.
+
+
+LaTeX Warning: Reference `fig:-vs-RXY5Tesla' on page 7 undefined on input line 758.
+
+
+LaTeX Warning: File `"Measurements/xlsx/3rd Part/RxxAt5Tesla".png' not found on input line 760.
+
+
+c:/Users/alon4/Dropbox/Labs/Lab C1/2D Electron Transport/TexReport/2DEG-Report.tex:760: Package pdftex.def Error: File `Measurements/xlsx/3rd Part/RxxAt5Tesla.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.760 ...ts/xlsx/3rd Part/RxxAt5Tesla\string".png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `"Measurements/xlsx/3rd Part/RxyAt5Tesla".png' not found on input line 766.
+
+
+c:/Users/alon4/Dropbox/Labs/Lab C1/2D Electron Transport/TexReport/2DEG-Report.tex:766: Package pdftex.def Error: File `Measurements/xlsx/3rd Part/RxyAt5Tesla.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.766 ...ts/xlsx/3rd Part/RxyAt5Tesla\string".png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[7]
+
+LaTeX Warning: Reference `eq: PARALLEL RESISTORS, SC AND PHONON' on page 8 undefined on input line 790.
+
+
+LaTeX Warning: Reference `fig:1/R vs T for the entire region using all the measurements' on page 8 undefined on input line 791.
+
+
+LaTeX Warning: Reference `fig:Resistivity-VS-Temperature HIGH TEMP REGION' on page 8 undefined on input line 804.
+
+
+LaTeX Warning: Reference `fig:Resistivity-VS-Temperature LOW TEMP REGION' on page 8 undefined on input line 805.
+
+
+LaTeX Warning: Reference `eq: Classical Hall Effect main equation' on page 8 undefined on input line 815.
+
+[8]
+
+LaTeX Warning: Citation `QuantumLifetime' on page 9 undefined on input line 856.
+
+
+LaTeX Warning: Citation `QuantumLifetime' on page 9 undefined on input line 859.
+
+[9]
+No file 2DEG-Report.bbl.
+[10
+
+] (2DEG-Report.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4596 strings out of 478733
+ 99901 string characters out of 2856733
+ 395883 words of memory out of 3000000
+ 22512 multiletter control sequences out of 15000+600000
+ 418543 words of font info for 65 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,15n,62p,529b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\alon4\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\alon4\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\alon4\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\alon4\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\alon4\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\alon4\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\alon4\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\alon4\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on 2DEG-Report.pdf (10 pages, 320105 bytes).
+PDF statistics:
+ 399 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

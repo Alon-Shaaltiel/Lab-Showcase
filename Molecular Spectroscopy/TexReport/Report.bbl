@@ -1,0 +1,231 @@
+\begin{thebibliography}{32}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{{M. R. Derrick , D. Stulik and J. M.
+  Landry}}(1999)}]{scitool}
+\bibinfo{author}{\bibnamefont{{M. R. Derrick , D. Stulik and J. M. Landry}}},
+  \emph{\bibinfo{title}{Infrared Spectroscopy in Conservation Science}}
+  (\bibinfo{publisher}{The Getty Conservation Institute},
+  \bibinfo{year}{1999}).
+
+\bibitem[{\citenamefont{Hsieh}(2008)}]{spechistory}
+\bibinfo{author}{\bibfnamefont{H.~N.} \bibnamefont{Hsieh}},
+  \emph{\bibinfo{title}{Ftir instrumentation}} (\bibinfo{year}{2008}),
+  \urlprefix\url{https://studentportalen.uu.se/uusp-filearea-tool/download.action?nodeId=111007&toolAttachmentId=44350}.
+
+\bibitem[{Fun(1991)}]{FundamentalsOfPhotonics}
+\emph{\bibinfo{title}{Fundamentals of Photonics}} (\bibinfo{publisher}{John
+  Wiley and Sons, Ltd}, \bibinfo{year}{1991}), ISBN
+  \bibinfo{isbn}{9780471213741},
+  \eprint{https://onlinelibrary.wiley.com/doi/pdf/10.1002/0471213748},
+  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/0471213748}.
+
+\bibitem[{\citenamefont{LibreTexts}()}]{2020Beer}
+\bibinfo{author}{\bibnamefont{LibreTexts}}, \emph{\bibinfo{title}{Beer's law}},
+  \bibinfo{howpublished}{\url{https://chem.libretexts.org/Courses/Providence_College/CHM_331_Advanced_Analytical_Chemistry_1/08\%3A_An_Introduction_to_Ultraviolet-Visible_Absorption_Spectrometry/8.02\%3A_Beer\'s_Law}}.
+
+\bibitem[{\citenamefont{{N. L. Alpert , W. E. Keiser and H. A.
+  Szymanski}}(1970)}]{alpert}
+\bibinfo{author}{\bibnamefont{{N. L. Alpert , W. E. Keiser and H. A.
+  Szymanski}}}, \emph{\bibinfo{title}{IR Theory and Practice of Infrared
+  Spectroscopy}} (\bibinfo{publisher}{Plenum Press New York},
+  \bibinfo{year}{1970}).
+
+\bibitem[{\citenamefont{Griffiths}(2005)}]{griffithsQM}
+\bibinfo{author}{\bibfnamefont{D.~J.} \bibnamefont{Griffiths}},
+  \emph{\bibinfo{title}{Introduction To Quantum Mechanics}}
+  (\bibinfo{publisher}{Pearson Education International}, \bibinfo{year}{2005}).
+
+\bibitem[{\citenamefont{Sakurai and Napolitano}(2011)}]{samurai}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Sakurai}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Napolitano}},
+  \emph{\bibinfo{title}{Modern Quantum Mechanics Second Edition}}
+  (\bibinfo{publisher}{Pearson Education International}, \bibinfo{year}{2011}).
+
+\bibitem[{\citenamefont{Stuart}(2004)}]{stuart}
+\bibinfo{author}{\bibfnamefont{B.~H.} \bibnamefont{Stuart}},
+  \emph{\bibinfo{title}{Infrared Spectroscopy: Fundamentals and Applications}}
+  (\bibinfo{publisher}{John Wiley and Sons, Ltd}, \bibinfo{year}{2004}).
+
+\bibitem[{FTI(2013)}]{FTIRmanual}
+\emph{\bibinfo{title}{Introduction to Fourier Transform Infrared
+  Spectroscopy}}, \bibinfo{organization}{Thermo Fisher Scientific Inc}
+  (\bibinfo{year}{2013}).
+
+\bibitem[{\citenamefont{{Attenuated total reflectance}}(2013)}]{wiki:ATR}
+\bibinfo{author}{\bibnamefont{{Attenuated total reflectance}}},
+  \emph{\bibinfo{title}{Attenuated total reflectance --- {W}ikipedia{,} the
+  free encyclopedia}} (\bibinfo{year}{2013}), \bibinfo{note}{[Online; accessed
+  15-December-2021]},
+  \urlprefix\url{https://commons.wikimedia.org/wiki/File:ATR_path-en.svg}.
+
+\bibitem[{\citenamefont{{National Institute of Standards and Technology, U.S
+  Department of Commerce}}(2021)}]{NISTwebook}
+\bibinfo{author}{\bibnamefont{{National Institute of Standards and Technology,
+  U.S Department of Commerce}}}, \emph{\bibinfo{title}{Nist chemistry webbook,
+  srd 69}} (\bibinfo{year}{2021}),
+  \urlprefix\url{https://webbook.nist.gov/chemistry/name-ser/}.
+
+\bibitem[{\citenamefont{{W. H. Press, S. A. Teukolsky, W. T. Vetterling and B.
+  P. Flannery}}(2007)}]{numerical}
+\bibinfo{author}{\bibnamefont{{W. H. Press, S. A. Teukolsky, W. T. Vetterling
+  and B. P. Flannery}}}, \emph{\bibinfo{title}{Numerical Recipes The Art of
+  Scientific Computing Third Edition}} (\bibinfo{publisher}{Cambridge
+  University Press}, \bibinfo{year}{2007}).
+
+\bibitem[{\citenamefont{{N. Garizi, A. Macias, T. Furch, R. Fan, P. Wagenknecht
+  and K. A. Singmaster}}(2001)}]{IRCEllSMOKE}
+\bibinfo{author}{\bibnamefont{{N. Garizi, A. Macias, T. Furch, R. Fan, P.
+  Wagenknecht and K. A. Singmaster}}}, \bibinfo{journal}{Journal of Chemical
+  Education} \textbf{\bibinfo{volume}{78}} (\bibinfo{year}{2001}),
+  \urlprefix\url{http://www.columbia.edu/itc/chemistry/c2507/CS_Material_04/CS2_Material_2.pdf}.
+
+\bibitem[{\citenamefont{{A. R. Ford , W. A. Burns and S. W.
+  Reeve}}(2004)}]{FTIRSPECTRAOFSMOKE}
+\bibinfo{author}{\bibnamefont{{A. R. Ford , W. A. Burns and S. W. Reeve}}},
+  \bibinfo{journal}{Journal of Chemical Education}
+  \textbf{\bibinfo{volume}{81}} (\bibinfo{year}{2004}).
+
+\bibitem[{\citenamefont{Auis}(2019)}]{NASA}
+\bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Auis}},
+  \emph{\bibinfo{title}{The atmosphere: Getting a handle on carbon dioxide}}
+  (\bibinfo{year}{2019}),
+  \urlprefix\url{https://climate.nasa.gov/news/2915/the-atmosphere-getting-a-handle-on-carbon-dioxide/}.
+
+\bibitem[{\citenamefont{{N. Sultanova, S. Kasarova and I.
+  Nikolov}}(2009)}]{plasticRefract}
+\bibinfo{author}{\bibnamefont{{N. Sultanova, S. Kasarova and I. Nikolov}}},
+  \emph{\bibinfo{title}{Dispersion Properties of Optical Polymers}}
+  (\bibinfo{publisher}{Proceedings of the International School and Conference
+  on Photonics}, \bibinfo{year}{2009}).
+
+\bibitem[{Suk()}]{Suktinis}
+\emph{\bibinfo{title}{Suktinis mead 1l}}, \bibinfo{note}{[Online; accessed
+  21-December-2021]},
+  \urlprefix\url{https://www.theliquorbarn.com/suktinis-mead-1l}.
+
+\bibitem[{\citenamefont{Carel}(1998)}]{bookWithCO2inBreath}
+\bibinfo{author}{\bibfnamefont{R.~S.} \bibnamefont{Carel}},
+  \emph{\bibinfo{title}{{Handbook of Air Pollution from Internal Combustion
+  Engines Pollutant Formation and Control}}} (\bibinfo{publisher}{Academic
+  Press}, \bibinfo{year}{1998}), chap.~\bibinfo{chapter}{3},
+  p.~\bibinfo{pages}{74}.
+
+\bibitem[{\citenamefont{Tans and Keeling}(2009)}]{tans2009noaa}
+\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Tans}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Keeling}},
+  \bibinfo{journal}{ESRL (www.esrl.noaa.gov/gmd/ccgg/trends/)}
+  (\bibinfo{year}{2009}).
+
+\bibitem[{\citenamefont{Jacobson et~al.}(2019)\citenamefont{Jacobson, Kler,
+  Hernke, Braun, Meyer, and Funk}}]{Jacobson2019}
+\bibinfo{author}{\bibfnamefont{T.~A.} \bibnamefont{Jacobson}},
+  \bibinfo{author}{\bibfnamefont{J.~S.} \bibnamefont{Kler}},
+  \bibinfo{author}{\bibfnamefont{M.~T.} \bibnamefont{Hernke}},
+  \bibinfo{author}{\bibfnamefont{R.~K.} \bibnamefont{Braun}},
+  \bibinfo{author}{\bibfnamefont{K.~C.} \bibnamefont{Meyer}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{W.~E.} \bibnamefont{Funk}},
+  \bibinfo{journal}{Nature Sustainability} \textbf{\bibinfo{volume}{2}},
+  \bibinfo{pages}{691} (\bibinfo{year}{2019}), ISSN \bibinfo{issn}{2398-9629},
+  \urlprefix\url{https://doi.org/10.1038/s41893-019-0323-1}.
+
+\bibitem[{\citenamefont{{N. Mina-Camilde, C. Manazanares I, J. F.
+  Caballero}}(1996)}]{jiloEdu}
+\bibinfo{author}{\bibnamefont{{N. Mina-Camilde, C. Manazanares I, J. F.
+  Caballero}}}, \bibinfo{journal}{Journal of Chemical Education}
+  \textbf{\bibinfo{volume}{73}} (\bibinfo{year}{1996}).
+
+\bibitem[{\citenamefont{{Talhout R, Schulz T, Florek E, van Benthem J, Wester P
+  and Opperhuizen A.}}(2011)}]{SubstanceDangerPaper}
+\bibinfo{author}{\bibnamefont{{Talhout R, Schulz T, Florek E, van Benthem J,
+  Wester P and Opperhuizen A.}}}, \bibinfo{journal}{International journal of
+  environmental research and public health} \textbf{\bibinfo{volume}{8}}
+  (\bibinfo{year}{2011}).
+
+\bibitem[{\citenamefont{for
+  Biotechnology~Information}(2004{\natexlab{a}})}]{PubChemCO}
+\bibinfo{author}{\bibfnamefont{N.~C.} \bibnamefont{for
+  Biotechnology~Information}}, \emph{\bibinfo{title}{{PubChem Compound Summary
+  for CID 281, Carbon monoxide.}}}, \bibinfo{howpublished}{{Retrieved December
+  21, 2021 from https://pubchem.ncbi.nlm.nih.gov/compound/Carbon-monoxide.}}
+  (\bibinfo{year}{2004}{\natexlab{a}}).
+
+\bibitem[{\citenamefont{{A. Dorey, P. Scheerlinck, H. Nguyen, BG T.
+  Albertson}}(2020)}]{COHbInSmokers}
+\bibinfo{author}{\bibnamefont{{A. Dorey, P. Scheerlinck, H. Nguyen, BG T.
+  Albertson}}}, \bibinfo{journal}{MILITARY MEDICINE}
+  \textbf{\bibinfo{volume}{185}} (\bibinfo{year}{2020}).
+
+\bibitem[{\citenamefont{for
+  Biotechnology~Information}(2004{\natexlab{b}})}]{PubChemHCN}
+\bibinfo{author}{\bibfnamefont{N.~C.} \bibnamefont{for
+  Biotechnology~Information}}, \emph{\bibinfo{title}{{PubChem Compound Summary
+  for CID 768, Hydrogen cyanide.}}}, \bibinfo{howpublished}{{Retrieved December
+  21, 2021 from https://pubchem.ncbi.nlm.nih.gov/compound/Hydrogen-cyanide.}}
+  (\bibinfo{year}{2004}{\natexlab{b}}).
+
+\bibitem[{\citenamefont{Food and Administration}(2021)}]{MethanolFDA}
+\bibinfo{author}{\bibfnamefont{U.}~\bibnamefont{Food}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Administration}},
+  \emph{\bibinfo{title}{Fda commits to evidence-based actions aimed at saving
+  lives and preventing future generations of smokers}},
+  \bibinfo{howpublished}{FDA News Release} (\bibinfo{year}{2021}).
+
+\bibitem[{\citenamefont{for
+  Biotechnology~Information}(2004{\natexlab{c}})}]{PubChemIsoprene}
+\bibinfo{author}{\bibfnamefont{N.~C.} \bibnamefont{for
+  Biotechnology~Information}}, \emph{\bibinfo{title}{{PubChem Compound Summary
+  for CID 6557, Isoprene.}}}, \bibinfo{howpublished}{{Retrieved December 21,
+  2021 from https://pubchem.ncbi.nlm.nih.gov/compound/Isoprene.}}
+  (\bibinfo{year}{2004}{\natexlab{c}}).
+
+\bibitem[{\citenamefont{{The International Agency for Research on Cancer
+  (IARC)}}(1999)}]{AcetaldehydeIARC}
+\bibinfo{author}{\bibnamefont{{The International Agency for Research on Cancer
+  (IARC)}}}, \emph{\bibinfo{title}{{Re-evaluation of Some Organic Chemicals:
+  Hydrazine and Hydrogen Peroxide (Part Two) (IARC Monographs on the Evaluation
+  of the Carcinogenic Risks to Humans, 71)}}} (\bibinfo{publisher}{{World
+  Health Organization}}, \bibinfo{year}{1999}).
+
+\bibitem[{\citenamefont{Salaspuro}(2009)}]{AcetaldehydeInCigars}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Salaspuro}},
+  \bibinfo{journal}{Scandinavian Journal of Gastroenterology}
+  \textbf{\bibinfo{volume}{44}}, \bibinfo{pages}{912} (\bibinfo{year}{2009}),
+  \eprint{https://doi.org/10.1080/00365520902912563},
+  \urlprefix\url{https://doi.org/10.1080/00365520902912563}.
+
+\bibitem[{\citenamefont{Belluzzi et~al.}(2005)\citenamefont{Belluzzi, Wang, and
+  Leslie}}]{AcetaldehydeInRats}
+\bibinfo{author}{\bibfnamefont{J.~D.} \bibnamefont{Belluzzi}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Wang}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.~M.} \bibnamefont{Leslie}},
+  \bibinfo{journal}{Neuropsychopharmacology} \textbf{\bibinfo{volume}{30}},
+  \bibinfo{pages}{705} (\bibinfo{year}{2005}).
+
+\bibitem[{\citenamefont{Bates and Jarvis}(1999)}]{FortyPercentIncrease}
+\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Bates}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Jarvis}}
+  (\bibinfo{year}{1999}).
+
+\bibitem[{\citenamefont{Wayne et~al.}(2004)\citenamefont{Wayne, Connolly, and
+  Henningfield}}]{CigarCompaniesInternal}
+\bibinfo{author}{\bibfnamefont{G.~F.} \bibnamefont{Wayne}},
+  \bibinfo{author}{\bibfnamefont{G.~N.} \bibnamefont{Connolly}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{J.~E.}
+  \bibnamefont{Henningfield}}, \bibinfo{journal}{Nicotine and Tobacco Research}
+  \textbf{\bibinfo{volume}{6}}, \bibinfo{pages}{927} (\bibinfo{year}{2004}),
+  ISSN \bibinfo{issn}{14622203, 1469994X},
+  \urlprefix\url{http://www.jstor.org/stable/26760248}.
+
+\end{thebibliography}

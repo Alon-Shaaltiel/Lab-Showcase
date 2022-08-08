@@ -1,0 +1,1993 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{braket}
+\usepackage{multicol}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "bookman" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1.5cm
+\topmargin 0.9cm
+\rightmargin 1.5cm
+\bottommargin 1.3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Using Quantum Mechanics For Secure Communication
+\end_layout
+
+\begin_layout Author
+Alon Shaaltiel & Oren Kereth
+\end_layout
+
+\begin_layout Address
+Using linearly polarized light we execute the BB84 protocol for quantum
+ cryptography.
+ The protocol is examined when no eavesdropper is present and a key is transmitt
+ed securely between two agents.
+ The results are compared with a simulation of the system.
+ As the BB84 protocol uses quantum mechanics, an eavesdropper cannot measure
+ the signal without altering it and so they are detected.
+ Detection of an eavesdropper under the BB84 is also examined and the results
+ are compared with a simulation of the system.
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\lang english
+\begin_inset FormulaMacro
+\newcommand{\de}{\text{°}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\Ket}[1]{\left|#1\right\rangle }
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Introduction
+\end_layout
+
+\begin_layout Section*
+Historical Review
+\end_layout
+
+\begin_layout Standard
+The first documented use of cryptography is from Egypt dating 4000 years
+ ago 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "FirstdocumenteduseofCrypto"
+literal "false"
+
+\end_inset
+
+.
+ Cryptography is the science of writing in secret code, which is necessary
+ when communicating over any untrusted medium 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Cryptodorigins"
+literal "false"
+
+\end_inset
+
+.
+ Most cryptographic protocols make use of 
+\begin_inset Quotes eld
+\end_inset
+
+keys
+\begin_inset Quotes erd
+\end_inset
+
+ to encrypt and decrypt data 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CryptoKeys"
+literal "false"
+
+\end_inset
+
+.
+ The idea of quantum cryptography, which utilizes quantum mechanics in cryptogra
+phic protocols, was first proposed in the 1970s by Stephan Wiesner, Charles
+ H.Bennet and Gilles Brassard 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "QuantumCryptoOrigin"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Do we have the citation to the first paper, instead of the review?
+\end_layout
+
+\end_inset
+
+.
+ Based on this idea, the protocol we use 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+test feels like the wrong word.
+ Is 
+\begin_inset Quotes eld
+\end_inset
+
+use
+\begin_inset Quotes erd
+\end_inset
+
+ better?
+\end_layout
+
+\end_inset
+
+ in this experiment, BB84, was invented.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+BB84 allows its users that communicate over a channel to either form a key
+ with which they will encrypt the data or to detect someone eavesdropping
+ on the channel
+\begin_inset Quotes erd
+\end_inset
+
+ changed to
+\end_layout
+
+\end_inset
+
+BB84 allows its users to securely create an encryption key and to detect
+ eavesdroppers 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ORIGINALBB84"
+literal "false"
+
+\end_inset
+
+.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Since its invention and with the advancement of technology, practical implementa
+tions of BB84 are being experimented.
+ Among these implementations 
+\end_layout
+
+\end_inset
+
+ Since its invention, BB84 was proven to be secure both theoretically and
+ experimentally 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "BB84SECURETheory,BB84SECUREExperiment"
+literal "false"
+
+\end_inset
+
+.
+ With the advancements of technology, practical implementations of BB84
+ are being tested.
+ Among these implementations are satellite-to-ground quantum communication
+ using BB84 encryption over a distance of 1200km 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "BB84Satellite"
+literal "false"
+
+\end_inset
+
+, underwater communication
+\begin_inset CommandInset citation
+LatexCommand cite
+key "BB84underwater1,BB84underwater2"
+literal "false"
+
+\end_inset
+
+ and more.
+ In the near future, BB84 could be used worldwide due to its secure nature
+ and the improvement of technology over time.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Great section!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Theoretical Review
+\end_layout
+
+\begin_layout Standard
+A key that will 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+'later' dropped
+\end_layout
+
+\end_inset
+
+ be used to encrypt data is formed from a sequence of '0's and '1's 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+slight rephrase
+\end_layout
+
+\end_inset
+
+.
+ In this experiment the polarization of light transmitted between the two
+ communicating users, 
+\begin_inset Quotes eld
+\end_inset
+
+Alice
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Bob
+\begin_inset Quotes erd
+\end_inset
+
+, is used to signify 0 and 1.
+ The light can be polarized and measured in two different bases, 
+\begin_inset Formula $+$
+\end_inset
+
+ and 
+\begin_inset Formula $\times$
+\end_inset
+
+.
+ In the 
+\begin_inset Formula $+$
+\end_inset
+
+ basis, light can be linearly polarized at either 
+\begin_inset Formula $0\text{°}$
+\end_inset
+
+ or 
+\begin_inset Formula $90\de$
+\end_inset
+
+, denoted by 
+\begin_inset Formula $\Ket{0\de}$
+\end_inset
+
+ and 
+\begin_inset Formula $\Ket{90\de}$
+\end_inset
+
+ respectively.
+ These polarizations are by definition orthogonal 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Should the reader know why that is significant yet?
+\end_layout
+
+\end_inset
+
+ and therefore 
+\begin_inset Formula $\Ket{0\de}$
+\end_inset
+
+ can denote '1' and 
+\begin_inset Formula $\Ket{90\de}$
+\end_inset
+
+ can denote '0' without the two mixing.
+ In the 
+\begin_inset Formula $\times$
+\end_inset
+
+ basis, light can be polarized at either 
+\begin_inset Formula $45\de$
+\end_inset
+
+ or 
+\begin_inset Formula $-45\de$
+\end_inset
+
+, denoted similarly by 
+\begin_inset Formula $\Ket{45\de}$
+\end_inset
+
+ and 
+\begin_inset Formula $\Ket{-45\de}$
+\end_inset
+
+ respectively.
+ These polarizations are orthogonal too, and so 
+\begin_inset Formula $\Ket{45\de}$
+\end_inset
+
+ denotes '1' and 
+\begin_inset Formula $\Ket{-45\de}$
+\end_inset
+
+ denotes '0' when the light is measured in this basis.
+ Using linear algebra it can be shown that
+\begin_inset Formula 
+\begin{equation}
+\Ket{45\de}=\frac{1}{\sqrt{2}}(\Ket{0\de}+\Ket{90\de})\,;\Ket{-45\de}=\frac{1}{\sqrt{2}}(\Ket{0\de}-\Ket{90\de})\label{eq: Relation between X basis to + basis}
+\end{equation}
+
+\end_inset
+
+ and similarly from these relations it can be shown that 
+\begin_inset Formula 
+\begin{equation}
+\Ket{0\de}=\frac{1}{\sqrt{2}}(\Ket{45\de}+\Ket{-45\de})\:;\Ket{90\de}=\frac{1}{\sqrt{2}}(\Ket{-45\de}-\Ket{45\de})\label{eq: Relation between + basis to X basis}
+\end{equation}
+
+\end_inset
+
+Based on the quantum mechanical treatment of the polarizations, the relations
+ above indicate that measuring the polarization of light that was polarized
+ in the 
+\begin_inset Formula $\times$
+\end_inset
+
+ basis in the 
+\begin_inset Formula $+$
+\end_inset
+
+ basis has an equal probability of yielding either '0' or '1', and vise-versa.
+\end_layout
+
+\begin_layout Subsection*
+BB84
+\end_layout
+
+\begin_layout Standard
+The BB84 encryption protocol makes use of the two different bases that share
+ the relations in equations 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Relation between X basis to + basis"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Relation between + basis to X basis"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ The protocol is as follows: one of the communicating users, Alice, chooses
+ a basis (either 
+\begin_inset Formula $+$
+\end_inset
+
+ or 
+\begin_inset Formula $\times$
+\end_inset
+
+) at random.
+ Alice then chooses a bit in that basis (either 0 or 1) and transmits a
+ photon with the corresponding polarization in the basis she has chosen.
+ Independently, the second user, Bob, chooses a basis at which he measures
+ the polarization of the transmitted photon.
+ Upon measurement, Bob documents the result (either 0 or 1) and the basis
+ at which he chose to measure the polarization, while Alice documents the
+ basis and bit she chose to transmit.
+ The two users repeat this step many times.
+ Alice and Bob then go through their measurements and compare the bases
+ they have chosen for each measurement.
+ They then discard the measurements in which Alice and Bob have chosen different
+ bases and keep only those that have the same basis.
+ Alice and Bob then publicly compare bits from a sample group chosen at
+ random from the remaining measurements.
+ In an ideal communication channel that is not eavesdropped on, they expect
+ all the bits to be the same (i.e if Alice sent a 1 in 
+\begin_inset Formula $\times$
+\end_inset
+
+ basis and Bob chose to measure in the 
+\begin_inset Formula $\times$
+\end_inset
+
+ basis he is guaranteed to get a 1 too) and thus from the remaining bits
+ that they have not compared they will form the key with which they will
+ now encrypt and decrypt data from each other.
+ However, if there is an eavesdropper, 
+\begin_inset Quotes eld
+\end_inset
+
+Eve
+\begin_inset Quotes erd
+\end_inset
+
+, spying on their communication, she will inevitably interfere with the
+ transmission, allowing us to intercept her.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $25\%$
+\end_inset
+
+ of the bits they compare (which as mentioned above, were all transmitted
+ and measured in the same basis) will turn out different, indicating the
+ existence of Eve due to the errors
+\begin_inset Quotes erd
+\end_inset
+
+ to 
+\begin_inset Quotes eld
+\end_inset
+
+she will measure the signal, and as we know from quantum mechanics, this
+ will change it, allowing us to intercept the eavesdropper.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Suppose Eve is eavesdropping on the communication between Alice and Bob.
+ Eve receives the polarized photon from Alice.
+ Suppose that Bob and Alice have both chosen the same basis in that measurement,
+ 
+\begin_inset Formula $+$
+\end_inset
+
+ and that Alice transmitted a 1.
+ At a probability of 
+\begin_inset Formula $50\%$
+\end_inset
+
+ Eve will choose the 
+\begin_inset Formula $+$
+\end_inset
+
+ basis, leading to a correct measurement of the polarization.
+ She will then replicate the result by choosing the basis with which she
+ has measured the polarization, to transmit to Bob a photon polarized in
+ that basis at a state corresponding to the bit she measured.
+ In this case, she will transmit the exact same polarization to Bob, which
+ will then receive exactly what Alice tried to transmit, leaving Eve undetected
+ in this case.
+ In the other 
+\begin_inset Formula $50\%$
+\end_inset
+
+ of the cases, Eve will choose the wrong basis, 
+\begin_inset Formula $\times$
+\end_inset
+
+.
+ She will then transmit the photon with a polarization in that wrong basis,
+ therefore, when Bob will measure the polarization in 
+\begin_inset Formula $50\%$
+\end_inset
+
+ of the cases he will get a 1 and on the remaining 
+\begin_inset Formula $50\%$
+\end_inset
+
+ of the cases he will get a 0.
+ Therefore, despite choosing the exact same basis as Alice, in 
+\begin_inset Formula $50\%\times50\%=25\%$
+\end_inset
+
+ of the cases he will measure the wrong bit because of Eve.
+ Consequently, if 
+\begin_inset Formula $25\%$
+\end_inset
+
+ of the compared bits turn out to be different from each other, Bob and
+ Alice can detect Eve and cease communication on that channel.
+ As we have shown here, BB84 allows its users to either detect an eavesdropper
+ or to safely form a key with which they will communicate safely.
+\end_layout
+
+\begin_layout Subsection*
+Half-Wave Plate
+\end_layout
+
+\begin_layout Standard
+As we have seen above, the protocol heavily relies on the ability of its
+ users to transmit and measure photons with different polarizations.
+ In this experiment this will be done using half-wave plates, also known
+ as a 
+\begin_inset Quotes eld
+\end_inset
+
+polarization rotator
+\begin_inset Quotes erd
+\end_inset
+
+.
+ A polarization rotator rotates the polarization of the incident light by
+ double the physical rotation angle of the wave plate, denoted by 
+\begin_inset Formula $\theta$
+\end_inset
+
+ (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Polarization Rotator Schematic"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) .
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/Polarization Rotator.jpg
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+A schematic of a polarization rotator.
+ 
+\begin_inset Formula $\theta$
+\end_inset
+
+ is the physical rotation angle of the wave plate.
+ Incident polarized light that passes through the polarization rotator has
+ its polarization rotated by 
+\begin_inset Formula $2\theta$
+\end_inset
+
+.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Polarization Rotator Schematic"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ For example, if the incident light is in the state 
+\begin_inset Formula $\Ket{0\de}$
+\end_inset
+
+ and the polarization rotator is rotated by 
+\begin_inset Formula $45\de$
+\end_inset
+
+, the light will be rotated to the 
+\begin_inset Formula $\Ket{90\de}$
+\end_inset
+
+ state.
+\end_layout
+
+\begin_layout Part*
+Experimental Setup
+\end_layout
+
+\begin_layout Standard
+The experiment consists of two parts.
+ The first part contains only Alice and Bob communicating a key to each
+ other without the existence of an eavesdropper on the channel.
+ For the second part we add Eve, the eavesdropper.
+ We then check if the BB84 protocol enables us to detect Eve.
+\end_layout
+
+\begin_layout Section*
+First Part
+\end_layout
+
+\begin_layout Standard
+The experimental setup of the first part consists of two units.
+ The first unit 'belongs' to Alice and is capable of transmitting light
+ with different linear polarizations according to the two bases 
+\begin_inset Formula $+,\times$
+\end_inset
+
+.
+ The second unit belongs to Bob and is capable of detecting the light and
+ measuring its polarization (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig: Experimental Setup - Part 1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ ).
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/Experimental Setup - Part I.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The experimental setup of the first part.
+ On the left- Alice's unit which transmits the bits via polarized light.
+ On the right- Bob's unit which detects the light and measures its polarization.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig: Experimental Setup - Part 1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Alice's unit uses a single photon source 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+ask Gary about this
+\end_layout
+
+\end_inset
+
+ that produces vertically polarized light (
+\begin_inset Formula $\Ket{0\de}$
+\end_inset
+
+).
+ The light then goes through a polarization rotator which can change the
+ polarization of light to one of four angles at the two different bases:
+ 
+\begin_inset Formula $+$
+\end_inset
+
+ (
+\begin_inset Formula $\Ket{0\de},\Ket{90\de}$
+\end_inset
+
+) and 
+\begin_inset Formula $\times$
+\end_inset
+
+ (
+\begin_inset Formula $\Ket{45\de},\Ket{-45\de}$
+\end_inset
+
+).
+ In this method Alice is capable of transmitting bits of information in
+ the two bases required for the protocol.
+ Bob then chooses a basis of measurement by rotating the polarization of
+ the incident light at either 
+\begin_inset Formula $0\de$
+\end_inset
+
+ or 
+\begin_inset Formula $-45\de$
+\end_inset
+
+.
+ The polarized light then goes through a polarizing beamsplitter (PBS) that
+ transmits the horizontal component of polarization (
+\begin_inset Formula $\Ket{90\de})$
+\end_inset
+
+ and reflects the vertical component (
+\begin_inset Formula $\Ket{0\de}$
+\end_inset
+
+).
+ This 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+maybe there's a better word than system; it's fine, dropped 
+\begin_inset Quotes eld
+\end_inset
+
+system
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ allows Bob to measure the polarization in the two different bases.
+ For example, if Alice transmits 
+\begin_inset Formula $\Ket{45\de}$
+\end_inset
+
+ (a 1 bit in the 
+\begin_inset Formula $\times$
+\end_inset
+
+ basis) and Bob rotates the polarization by 
+\begin_inset Formula $-45\de$
+\end_inset
+
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Why is this a minus? I guess it's the only way the whole 0 and 1 thing works,
+ but shouldn't we explain it?
+\end_layout
+
+\end_inset
+
+ (measuring in 
+\begin_inset Formula $\times$
+\end_inset
+
+ basis) the light will turn to 
+\begin_inset Formula $\Ket{0\de}$
+\end_inset
+
+.
+ It will then be reflected by the PBS and Bob will measure a 1 as required.
+ If Bob measures in the 
+\begin_inset Formula $+$
+\end_inset
+
+ basis the polarization of the light will not change.
+ Because 
+\begin_inset Formula $\Ket{45\de}$
+\end_inset
+
+ consists of vertical and horizontal components in equal magnitude (according
+ to equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Relation between X basis to + basis"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) half the time Bob will measure a 1 and in the other half he will measure
+ a 0.
+ We have thus shown that the composition of Bob's unit allows him to perform
+ all the operations required of him according to the BB84 protocol.
+ In this part of the experiment Alice sends to Bob three sequences of bits
+ with varying lengths (18,50 and 100 bits), the bits that were sent and
+ received with the same basis form the key, upon comparison we expect no
+ errors as the system is ideal with no eavesdropper.
+\end_layout
+
+\begin_layout Section*
+Second Part
+\end_layout
+
+\begin_layout Standard
+We now add an eavesdropper to the communication channel, Eve.
+ Eve detects the photon transmitted by Alice and measures its bit in a randomly
+ chosen basis.
+ Eve then replicates the measured bit and transmits it to Bob in the same
+ basis she measured in.
+ To perform these operations according to the protocol, Eve's units is a
+ combination of Alice's and Bob's units (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig: Experimental Setup II "
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/Experimental Setup - Part II.jpg
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The added unit to the experimental setup for the second part.
+ Eve's unit is a combination of Bob's and Alice's units.
+ Eve is capable of measuring bits from Alice and transmitting the results
+ of her measurement to Bob.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig: Experimental Setup II "
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ The 
+\begin_inset Quotes eld
+\end_inset
+
+Bob part
+\begin_inset Quotes erd
+\end_inset
+
+ of Eve's unit allows Eve to detect and measure the bits transmitted to
+ her as explained in the first part and the 
+\begin_inset Quotes eld
+\end_inset
+
+Alice part' of Eve's unit allows her to transmit the measurement to Bob
+ in the basis she has chosen.
+ Apart from the addition of Eve to the setup nothing else has changed.
+ In this part of the experiment we will attempt to detect Eve using the
+ protocol with sequences of 18 bits, 50 bits and 100 bits.
+\end_layout
+
+\begin_layout Part*
+Results
+\end_layout
+
+\begin_layout Section*
+First Part
+\end_layout
+
+\begin_layout Standard
+By transmitting sequences of 18,50 and 100 bits from Alice to Bob , forming
+ a key according to the protocol and comparing the results to a simulation
+ the following results have been concluded (see Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab: Part I results table"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ ) 
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+———–
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Experiment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Simulation
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sequence Length
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Key Length(
+\begin_inset Formula $\%$
+\end_inset
+
+ of bits)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10(56%)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8(44%)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+27(54%)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+27(54%)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+48(48%)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+54(54%)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+First part - results table
+\begin_inset CommandInset label
+LatexCommand label
+name "tab: Part I results table"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+As mentioned in a previous section, the length of the key is determined
+ by the number of bits that were transmitted by Alice in the same basis
+ as the one Bob used to measure them, leading to its correct interpretation
+ (meaning that if Alice transmitted a '1' Bob also measured a '1').
+ According to our model, the probability Alice and Bob chose the same basis
+ for a certain bit is 
+\begin_inset Formula $50\%$
+\end_inset
+
+.
+ In both the experiment and simulation it appears that the length of the
+ key is close to the expectancy according to the model (which is half of
+ the sequence length).
+ Moreover, in the experiment and simulation all the bits that were measured
+ and transmitted in the same basis by Bob and Alice respectively were correctly
+ interpreted.
+ This is exactly as the model predicts and as we require for the protocol
+ to work (in its most ideal case, in reality communication errors can and
+ will occur, but the protocol can still allow its users to deduct the existence
+ of a spy).
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+I'm not 100% sure about this phrasing.
+ The protocol obviously prefers that there are no errors due to communication
+ problems but even if there are some and like 6% of the bits have errors
+ even though they were measured in the same basis we can still deduce the
+ existence of an eavesdropper.
+ What do you think? I think the phrasing is fine
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Second Part
+\end_layout
+
+\begin_layout Standard
+After adding Eve to the setup as shown in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig: Experimental Setup II "
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, sequences of 18,50 and 100 bits were transmitted from Alice to Bob and
+ the results were analyzed according to the protocol.
+ The bases for each bit measurement were compared and so were the bits correspon
+ding to those measurements.
+ From the comparison the following results have been concluded (see Table
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab: Part II results table"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ ) 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+I need a new way to show the data.
+ This table is way too small.
+ any ideas?
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\size tiny
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+———–
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+Experiment
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+Simulation
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+Sequence Length
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+#SBBs(
+\begin_inset Formula $\%$
+\end_inset
+
+ of bits)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+#Errors(
+\begin_inset Formula $\%$
+\end_inset
+
+ of bits)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+#SBBs(
+\begin_inset Formula $\%$
+\end_inset
+
+ of bits)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+#Errors(
+\begin_inset Formula $\%$
+\end_inset
+
+ of bits)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+8(44%)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+2(25%)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+12(66%)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+3(25%)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+50
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+18(36%)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+3(17%)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+24(48%)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+4(17%)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+54(54%)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+13(24%)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+48(48%)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+12(25%)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Second part - results table.
+ SBBs stands for same basis bits (i.e.
+ bits for which Alice and Bob chose the same basis for transmission and
+ measurement).
+ The percentage of errors was calculated according to the number of SBBs.
+\begin_inset CommandInset label
+LatexCommand label
+name "tab: Part II results table"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+As the data shows, upon the insertion of Eve there are errors in SBBs (unlike
+ the first part which had no errors).
+ The percentages of errors for all sequence lengths are all close to 25%
+ apart for the 17% errors which was recorded for 50 bits.
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Using the simulation, it can be seen in 
+\end_layout
+
+\end_inset
+
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig: Simulation of the error as function of sequence length"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ shows the results from simulations of varying sequence lengths, for longer
+ sequences the percentage of errors converges to 25%, just as the model
+ predicts.
+ Also shown is the variance 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+removed 'around'
+\end_layout
+
+\end_inset
+
+ in the percentage of errors around 
+\begin_inset Formula $x=50$
+\end_inset
+
+.
+ Assuming the distance from 
+\begin_inset Formula $25\%$
+\end_inset
+
+ in each direction is three standard deviations away, the percentage around
+ 
+\begin_inset Formula $x=50$
+\end_inset
+
+ is 
+\begin_inset Formula $0.25_{-0.0449}^{+0.0577}$
+\end_inset
+
+ (1
+\begin_inset Formula $\sigma$
+\end_inset
+
+ in each direction) which makes our measurement 
+\begin_inset Formula $1.8$
+\end_inset
+
+ standard deviations away, well within the desired range.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/PercentSimulation.pdf
+	special width=\linewidth
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Graph of the percentage of errors in SBBs.
+ The blue dots are simulations, the red line around 
+\begin_inset Formula $x=50$
+\end_inset
+
+ shows the width of the points around the black line at 
+\begin_inset Formula $y=0.25$
+\end_inset
+
+, which is the theoretical value that the model predicts.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig: Simulation of the error as function of sequence length"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Moreover, Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig: Binomial Distribution"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ shows that according to our model the probability of getting 3 errors for
+ 18 SBBs (which led to the 17% error for the 50 bits case) is greater than
+ 5% (more accurately it is about 17%) and therefore the null hypothesis
+ cannot be rejected and the model remains valid.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Saying that the model remains valid is probably problematic.
+ it's not exactly that its valid but more that it hasn't been proven to
+ be invalid.
+ Yet I don't know how to phrase that
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+can you please add a graph with the probability of error for varying sequence
+ lengths as Gary talked about? This is mainly a reminder for myself to ask
+ you about it but in case I forget it's here
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/BinomialDist18.pdf
+	scale 18
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Binomial distribution for a sequence of 18 repetitions (18 SBBs) with a
+ probability of 25% to fail (probability of getting an error at a certain
+ bit)
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+can you please add labels to the axis?
+\end_layout
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig: Binomial Distribution"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ The BB84 protocol has therefore allowed us to detect Eve successfully.
+\end_layout
+
+\begin_layout Part*
+Discussion
+\end_layout
+
+\begin_layout Standard
+In this experiment we communicated via the BB84 protocol.
+ In the first part of the experiment there was no eavesdropper, which allowed
+ Alice and Bob to form a key successfully according to the protocol.
+ The key consisted of about half the bits transmitted, in accordance with
+ our theoretical model.
+ Moreover, no errors were spotted in the comparison of SBBs, yet again in
+ accordance with theoretical results for the case of no eavesdropper.
+ The simulation has also demonstrated similar results.
+ In the second part an eavesdropper, Eve, was added.
+ The BB84 protocol allowed us to detect Eve, because for all three sequences
+ transmitted from Alice to Bob there were errors in the comparison of SBBs.
+ For the sequence of 18 and 100 transmitted bits the percentage of errors
+ compared to the number of SBBs was either 25% or close to it.
+ However, for the sequence of 50 bits the percentage was at about 17%, which
+ is not as close to 25%.
+ To asses this result, we used a binomial distribution whose probability
+ of 
+\begin_inset Quotes eld
+\end_inset
+
+failure
+\begin_inset Quotes erd
+\end_inset
+
+ is 25%, relying on the theoretical model.
+ We have shown that the probability of getting three errors out out of 18
+ is greater than our set significance level of 5%.
+ In addition the expected variance in the ratio of errors was estimated
+ using simulations and our measurement of 17% 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+added of 17%
+\end_layout
+
+\end_inset
+
+is 
+\begin_inset Formula $1.8$
+\end_inset
+
+ standard deviations from 
+\begin_inset Formula $25\%$
+\end_inset
+
+ which is in the desired range of 
+\begin_inset Formula $3$
+\end_inset
+
+ deviations.
+ Therefore the theoretical model remains valid.
+ We have also shown, using the simulation, that the percentage of errors
+ converges to 25% for longer and longer sequences of transmitted bits, just
+ as the model predicts.
+ The simulation demonstrated similar results that are, too, in agreement
+ with the model.
+ The results we have achieved are in accordance with a previous experiment
+ examining the BB84 protocol.
+ The experiment obtained a percentage of errors close to zero in the absence
+ of an eavesdropper and a percentage close to 25% in the presence of Eve
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "9225317"
+literal "false"
+
+\end_inset
+
+.
+ All in all, we have demonstrated that the BB84 protocol enables secure
+ communication and that it's theoretical model is valid.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "Report"
+options "unsrt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

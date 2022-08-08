@@ -1,0 +1,1353 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.24)  5 JUL 2022 13:01
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./Report.tex
+(Report.tex
+LaTeX2e <2022-06-01> pre-release-0 (develop 2022-6-24 branch)
+L3 programming layer <2022-06-02>
+(C:\Users\alon4\AppData\Roaming\MiKTeX\tex/latex/revtex\revtex4-2.cls
+Document Class: revtex4-2 2020/10/03 4.2e (https://journals.aps.org/revtex/ for
+ documentation)
+ Copyright (c) 2019 American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <arthur_ogawa at sbcglobal dot net>
+ Based on work by David Carlisle <david at dcarlisle.demon.co.uk>
+ Version (4.2d,4.2e): Modified by Mark Doyle and Phelype Oleinik
+ .
+ltxutil[2020/10/03 4.2e utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+LaTeX Info: Redefining \@centercr on input line 356.
+Class revtex4-2 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
+note on input line 481.
+Class revtex4-2 Info: Repairing broken LateX \@sect on input line 803.
+\intertabularlinepenalty=\count185
+\@tbpen=\count186
+\@arstrutbox@hline=\box51
+Class revtex4-2 Info: Repairing broken LaTeX \@xbitor on input line 1834.
+Class revtex4-2 Info: Making \typeout \long on input line 2099.
+ltxfront[2020/10/03 4.2e frontmatter package (AO,DPC,MD)]
+\c@affil=\count187
+\c@collab=\count188
+\absbox=\box52
+ltxgrid[2020/10/03 4.2e page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+\c@linecount=\count189
+\output@latex=\toks16
+\box@size@1=\box53
+\box@size@2=\box54
+\@protection@box=\box55
+\@topmark@saved=\toks17
+\footins@saved=\box56
+\footins@recovered=\box57
+\column@recovered=\box58
+\pagesofar=\box59
+\footsofar=\box60
+\pagegrid@col=\count190
+Class revtex4-2 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
+ \\  on input line 5665.
+\c@part=\count191
+\c@section=\count192
+\c@subsection=\count193
+\c@subsubsection=\count194
+\c@paragraph=\count195
+\c@subparagraph=\count196
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\c@figure=\count197
+\fbox@1=\box61
+\c@table=\count198
+\fbox@2=\box62
+\c@video=\count199
+\fbox@4=\box63
+\@bibdataout=\write3
+\widetext@top=\box64
+\widetext@bot=\box65
+Class revtex4-2 Info: Selecting society aps on input line 7658.
+(C:\Users\alon4\AppData\Roaming\MiKTeX\tex/latex/revtex\aps4-2.rtx
+File: aps4-2 2020/10/03 4.2e (https://journals.aps.org/revtex/ for documentatio
+n)
+Class revtex4-2 Info: RevTeX society APS selected on input line 40.
+)
+Class revtex4-2 Info: Selecting journal prl on input line 7660.
+Class revtex4-2 Info: APS journal PRL selected on input line 7661.
+
+(C:\Users\alon4\AppData\Roaming\MiKTeX\tex/latex/revtex\aps10pt4-2.rtx
+File: aps10pt4-2 2020/10/03 4.2e (https://journals.aps.org/revtex/ for document
+ation)
+Class revtex4-2 Info: RevTeX pointsize 10pt selected on input line 39.
+)
+(C:\Users\alon4\AppData\Roaming\MiKTeX\tex/latex/textcase\textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen138
+)
+LaTeX Info: Redefining \text on input line 28.
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen139
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count266
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count267
+\leftroot@=\count268
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count269
+\DOTSCASE@=\count270
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box66
+\strutbox@=\box67
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen140
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count271
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count272
+\dotsspace@=\muskip16
+\c@parentequation=\count273
+\dspbrk@lvl=\count274
+\tag@help=\toks20
+\row@=\count275
+\column@=\count276
+\maxfields@=\count277
+\andhelp@=\toks21
+\eqnshift@=\dimen141
+\alignsep@=\dimen142
+\tagshift@=\dimen143
+\tagwidth@=\dimen144
+\totwidth@=\dimen145
+\lineht@=\dimen146
+\@envbody=\toks22
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(C:\Users\alon4\AppData\Roaming\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip52
+\bibsep=\skip53
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count278
+)
+Class revtex4-2 Info: Repairing natbib's \BibitemShut on input line 7665.
+
+(C:\Users\alon4\AppData\Roaming\MiKTeX\tex/latex/revtex\revsymb4-2.sty
+Package: revsymb4-2 2020/10/03 4.2e (https://journals.aps.org/revtex/ for docum
+entation)
+LaTeX Info: Redefining \frak on input line 104.
+LaTeX Info: Redefining \Bbb on input line 120.
+LaTeX Info: Redefining \REV@mathfrak on input line 128.
+))
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks24
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
+) (C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/tools\dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen149
+\ar@mcellbox=\box68
+\extrarowheight=\dimen150
+\NC@list=\toks25
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box69
+))
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+LaTeX Info: Redefining \bm on input line 218.
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+(C:\Users\alon4\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count279
+\float@exts=\toks26
+\float@box=\box70
+\@float@everytoks=\toks27
+\@floatcapt=\box71
+)
+(C:\Users\alon4\AppData\Roaming\MiKTeX\tex/latex/fourier\fourier.sty
+Package: fourier 2022/02/05 2.3 fourier-GUTenberg package
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+Now handling font encoding FML ...
+... no UTF-8 mapping file for font encoding FML
+Now handling font encoding FMS ...
+... no UTF-8 mapping file for font encoding FMS
+Now handling font encoding FMX ...
+... no UTF-8 mapping file for font encoding FMX
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+futs on input line 1
+12.
+
+(C:\Users\alon4\AppData\Roaming\MiKTeX\tex/latex/fourier\t1futs.fd
+File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
+))
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(C:\Users\alon4\AppData\Roaming\MiKTeX\tex/latex/fourier\fourier-orns.sty
+Package: fourier-orns 2022/02/05 2.3 fourier-ornaments package
+)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 63.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 63.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> T1/futs/m/n on input line 63.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 63.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/futs/m/n on input line 63.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  T1/futs/m/n --> T1/futs/b/n on input line 64.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 72.
+LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
+(Font)              `letters' in the math version `normal' on input line 72.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> FML/futmi/m/it on input line 72.
+LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
+(Font)              `letters' in the math version `bold' on input line 72.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> FML/futmi/m/it on input line 72.
+\symotherletters=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  FML/futmi/m/it --> FML/futmi/b/it on input line 74.
+LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
+(Font)                  FML/futm/m/it --> FML/futm/b/it on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 85.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 86.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 126.
+LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 126.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> FMS/futm/m/n on input line 126.
+LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 126.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> FMS/futm/m/n on input line 126.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 127.
+LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 1
+27.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 127.
+LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 127
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 127.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 128.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 129.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 130.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> T1/futs/m/it on input line 130.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> T1/futs/m/it on input line 130.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 14
+3.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
+44.
+LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 146.
+LaTeX Font Info:    Redeclaring math symbol \parallel on input line 147.
+LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \intercal on input line 151.
+LaTeX Font Info:    Redeclaring math symbol \hslash on input line 152.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 161.
+LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 162.
+LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 164
+.
+LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 165.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 166.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 168.
+
+LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \varvarrho on input line 200.
+LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 223.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 228.
+LaTeX Font Info:    Redeclaring math delimiter \lvert on input line 230.
+LaTeX Font Info:    Redeclaring math delimiter \rvert on input line 232.
+LaTeX Font Info:    Redeclaring math delimiter \lVert on input line 234.
+LaTeX Font Info:    Redeclaring math delimiter \rVert on input line 236.
+LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 238.
+LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 240.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 242.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 244.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 246.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 248.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 250.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 252.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 254.
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 256.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 260.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 261.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 262.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 263.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 264.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 265.
+LaTeX Font Info:    Redeclaring math accent \check on input line 266.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 267.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 268.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 269.
+\symUfutm=\mathgroup10
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen151
+\c@nlinenum=\count280
+\TeXr@lab=\toks28
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/background\background.s
+ty
+Package: background 2014/03/04 v2.1 background material
+ (C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks29
+\XKV@tempa@toks=\toks30
+)
+\XKV@depth=\count281
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks31
+\pgfutil@tempdima=\dimen152
+\pgfutil@tempdimb=\dimen153
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common-lists.tex))
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box72
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+filtered.code.tex
+\pgfkeys@tmptoks=\toks34
+))
+\pgf@x=\dimen154
+\pgf@y=\dimen155
+\pgf@xa=\dimen156
+\pgf@ya=\dimen157
+\pgf@xb=\dimen158
+\pgf@yb=\dimen159
+\pgf@xc=\dimen160
+\pgf@yc=\dimen161
+\pgf@xd=\dimen162
+\pgf@yd=\dimen163
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count282
+\c@pgf@countb=\count283
+\c@pgf@countc=\count284
+\c@pgf@countd=\count285
+\t@pgf@toka=\toks35
+\t@pgf@tokb=\toks36
+\t@pgf@tokc=\toks37
+\pgf@sys@id@count=\count286
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count287
+\pgfsyssoftpath@bigbuffer@items=\count288
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen164
+\pgfmath@count=\count289
+\pgfmath@box=\box73
+\pgfmath@toks=\toks38
+\pgfmath@stack@operand=\toks39
+\pgfmath@stack@operation=\toks40
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)))
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count290
+))
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen165
+\pgf@picmaxx=\dimen166
+\pgf@picminy=\dimen167
+\pgf@picmaxy=\dimen168
+\pgf@pathminx=\dimen169
+\pgf@pathmaxx=\dimen170
+\pgf@pathminy=\dimen171
+\pgf@pathmaxy=\dimen172
+\pgf@xx=\dimen173
+\pgf@xy=\dimen174
+\pgf@yx=\dimen175
+\pgf@yy=\dimen176
+\pgf@zx=\dimen177
+\pgf@zy=\dimen178
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen179
+\pgf@path@lasty=\dimen180
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen181
+\pgf@shorten@start@additional=\dimen182
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box74
+\pgf@hbox=\box75
+\pgf@layerbox@main=\box76
+\pgf@picture@serial@count=\count291
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen183
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen184
+\pgf@pt@y=\dimen185
+\pgf@pt@temp=\dimen186
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen187
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen188
+\pgf@sys@shading@range@num=\count292
+\pgf@shadingcount=\count293
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box77
+))
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box78
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen189
+\pgf@nodesepend=\dimen190
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex)
+\pgffor@iter=\dimen191
+\pgffor@skip=\dimen192
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
+))
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count294
+\pgfplotmarksize=\dimen193
+)
+\tikz@lastx=\dimen194
+\tikz@lasty=\dimen195
+\tikz@lastxsaved=\dimen196
+\tikz@lastysaved=\dimen197
+\tikz@lastmovetox=\dimen198
+\tikz@lastmovetoy=\dimen199
+\tikzleveldistance=\dimen256
+\tikzsiblingdistance=\dimen257
+\tikz@figbox=\box79
+\tikz@figbox@bg=\box80
+\tikz@tempbox=\box81
+\tikz@tempbox@bg=\box82
+\tikztreelevel=\count295
+\tikznumberofchildren=\count296
+\tikznumberofcurrentchild=\count297
+\tikz@fig@count=\count298
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count299
+\pgfmatrixcurrentcolumn=\count300
+\pgf@matrix@numberofcolumns=\count301
+)
+\tikz@expandcount=\count302
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/everypage\everypage.sty
+Package: everypage 2020/10/17 R2.0b Hooks to run on every page
+
+Package everypage Warning: Functionality similar to this package has recently
+(everypage)                been implemented in LaTeX. This package is now in
+(everypage)                legacy status.
+(everypage)                Please, don't use it in new documents and packages.
+
+
+Package everypage Warning: You appear to be running a version of LaTeX
+(everypage)                providing the new functionality.
+(everypage)                Doing the best to deliver the original `everypage`
+(everypage)                interface on top of it. Strict equivalence is
+(everypage)                not possible, breakage may occur.
+(everypage)                If truly needed, Use `everypage-1x` to force the
+(everypage)                loading of an older code base.
+
+) (C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks43
+\AP@partial=\box83
+\AP@footins=\box84
+)) (C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/06/06 3.76 The Babel package
+\babel@savecnt=\count303
+\U@D=\dimen258
+\l@unhyphenated=\language79
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count304
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+df
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+))
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
+-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks44
+\inpenc@posthook=\toks45
+)
+(C:\Users\alon4\AppData\Roaming\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip56
+\f@nch@O@elh=\skip57
+\f@nch@O@erh=\skip58
+\f@nch@O@olh=\skip59
+\f@nch@O@orh=\skip60
+\f@nch@O@elf=\skip61
+\f@nch@O@erf=\skip62
+\f@nch@O@olf=\skip63
+\f@nch@O@orf=\skip64
+)
+Class revtex4-2 Info: Unrecognized array package. Please update this document c
+lass! (Proceeding with fingers crossed.) on input line 41.
+
+
+Class revtex4-2 Warning: Repair the float package.
+
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 41.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 41.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 41.
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count305
+\l__pdf_internal_box=\box85
+) (Report.aux)
+\openout1 = `Report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 41.
+LaTeX Font Info:    Trying to load font information for FML+futm on input line 
+41.
+
+(C:\Users\alon4\AppData\Roaming\MiKTeX\tex/latex/fourier\fmlfutm.fd
+File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
+)
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 41.
+LaTeX Font Info:    Trying to load font information for FMS+futm on input line 
+41.
+
+(C:\Users\alon4\AppData\Roaming\MiKTeX\tex/latex/fourier\fmsfutm.fd
+File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
+)
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 41.
+LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
+41.
+
+(C:\Users\alon4\AppData\Roaming\MiKTeX\tex/latex/fourier\fmxfutm.fd
+File: fmxfutm.fd futm-extension
+)
+LaTeX Font Info:    ... okay on input line 41.
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count306
+\scratchdimen=\dimen259
+\scratchbox=\box86
+\nofMPsegments=\count307
+\nofMParguments=\count308
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count309
+\MPscratchDim=\dimen260
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
+\everyMPtoPDFconversion=\toks47
+)
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 41.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 41.
+\openout3 = `ReportNotes.bib'.
+
+LaTeX Font Info:    Trying to load font information for FML+futmi on input line
+ 67.
+ (C:\Users\alon4\AppData\Roaming\MiKTeX\tex/latex/fourier\fmlfutmi.fd
+File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
+)
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
+
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
+
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 67.
+
+Underfull \hbox (badness 1571) in paragraph at lines 73--75
+\T1/futs/m/n/10 trom-e-ter (FTIR) will be used ex-ten-sively to ex-tract the
+ []
+
+<Images/Thin film.png, id=4, 524.96124pt x 335.2525pt>
+File: Images/Thin film.png Graphic file (type png)
+<use Images/Thin film.png>
+Package pdftex.def Info: Images/Thin film.png  used on input line 92.
+(pdftex.def)             Requested size: 246.0pt x 157.10318pt.
+<Images/logo.png, id=5, 345.29pt x 146.5475pt>
+File: Images/logo.png Graphic file (type png)
+<use Images/logo.png>
+Package pdftex.def Info: Images/logo.png  used on input line 118.
+(pdftex.def)             Requested size: 85.35826pt x 36.22755pt.
+[1{C:/Users/alon4/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Images/l
+ogo.png> <./Images/Thin film.png (PNG copy)>]
+Underfull \hbox (badness 4479) in paragraph at lines 135--138
+\T1/futs/m/n/10 The Beer-Lambert Law does have its lim-i-ta-tions, for
+ []
+
+
+Underfull \hbox (badness 3396) in paragraph at lines 178--179
+[]\T1/futs/m/n/10 There are two main mea-sur-ing in-stru-ments in this
+ []
+
+<Images/INTERFEROMETER.png, id=19, 441.90094pt x 292.84406pt>
+File: Images/INTERFEROMETER.png Graphic file (type png)
+<use Images/INTERFEROMETER.png>
+Package pdftex.def Info: Images/INTERFEROMETER.png  used on input line 186.
+(pdftex.def)             Requested size: 246.0pt x 163.0219pt.
+File: Images/logo.png Graphic file (type png)
+<use Images/logo.png>
+Package pdftex.def Info: Images/logo.png  used on input line 190.
+(pdftex.def)             Requested size: 85.35826pt x 36.22755pt.
+[2]
+<Images/FTIR LAYOUT.png, id=25, 514.17094pt x 559.33969pt>
+File: Images/FTIR LAYOUT.png Graphic file (type png)
+<use Images/FTIR LAYOUT.png>
+Package pdftex.def Info: Images/FTIR LAYOUT.png  used on input line 215.
+(pdftex.def)             Requested size: 246.0pt x 267.60944pt.
+<Images/ATR.png, id=26, 1223.57124pt x 327.2225pt>
+File: Images/ATR.png Graphic file (type png)
+<use Images/ATR.png>
+Package pdftex.def Info: Images/ATR.png  used on input line 226.
+(pdftex.def)             Requested size: 246.0pt x 65.78786pt.
+
+Underfull \hbox (badness 1308) in paragraph at lines 231--238
+\T1/futs/m/n/10 cent waves, re-sult-ing from the to-tal in-ter-nal re-flec-tion
+,
+ []
+
+File: Images/logo.png Graphic file (type png)
+<use Images/logo.png>
+Package pdftex.def Info: Images/logo.png  used on input line 238.
+(pdftex.def)             Requested size: 85.35826pt x 36.22755pt.
+[3 <./Images/INTERFEROMETER.png> <./Images/FTIR LAYOUT.png> <./Images/ATR.png>]
+<Images/COEnergystatesUPDATED.png, id=33, 413.29407pt x 327.47343pt>
+File: Images/COEnergystatesUPDATED.png Graphic file (type png)
+<use Images/COEnergystatesUPDATED.png>
+Package pdftex.def Info: Images/COEnergystatesUPDATED.png  used on input line 2
+76.
+(pdftex.def)             Requested size: 246.0pt x 194.92157pt.
+File: Images/logo.png Graphic file (type png)
+<use Images/logo.png>
+Package pdftex.def Info: Images/logo.png  used on input line 289.
+(pdftex.def)             Requested size: 85.35826pt x 36.22755pt.
+[4 <./Images/COEnergystatesUPDATED.png>]
+<Images/29_2_Spec.png, id=37, 1084.05pt x 1084.05pt>
+File: Images/29_2_Spec.png Graphic file (type png)
+<use Images/29_2_Spec.png>
+Package pdftex.def Info: Images/29_2_Spec.png  used on input line 315.
+(pdftex.def)             Requested size: 246.0pt x 245.98492pt.
+<Images/__linear_fit.png, id=38, 1445.4pt x 722.7pt>
+File: Images/__linear_fit.png Graphic file (type png)
+<use Images/__linear_fit.png>
+Package pdftex.def Info: Images/__linear_fit.png  used on input line 322.
+(pdftex.def)             Requested size: 246.0pt x 122.9897pt.
+File: Images/logo.png Graphic file (type png)
+<use Images/logo.png>
+Package pdftex.def Info: Images/logo.png  used on input line 345.
+(pdftex.def)             Requested size: 85.35826pt x 36.22755pt.
+ [5 <./Images/29_2_Spec.png> <./Images/__linear_fit.png>]
+Overfull \hbox (15.49048pt too wide) in paragraph at lines 348--356
+[]$[]$ 
+ []
+
+<Images/EthanolAbsorption.jpg, id=44, 562.1pt x 421.575pt>
+File: Images/EthanolAbsorption.jpg Graphic file (type jpg)
+<use Images/EthanolAbsorption.jpg>
+Package pdftex.def Info: Images/EthanolAbsorption.jpg  used on input line 371.
+(pdftex.def)             Requested size: 246.0pt x 184.49649pt.
+
+Underfull \hbox (badness 1412) in paragraph at lines 361--375
+[]\T1/futs/m/n/10 The to-tal ab-sorbance am-pli-tude in the range $1000 \FMS/fu
+tm/m/n/10 ^^@
+ []
+
+<Images/linear_fittingethanol.png, id=45, 462.528pt x 346.896pt>
+File: Images/linear_fittingethanol.png Graphic file (type png)
+<use Images/linear_fittingethanol.png>
+Package pdftex.def Info: Images/linear_fittingethanol.png  used on input line 3
+80.
+(pdftex.def)             Requested size: 246.0pt x 184.49977pt.
+
+Underfull \hbox (badness 2057) in paragraph at lines 391--391
+[]|\T1/futs/m/n/9 Error (Rel-a-tive
+ []
+
+
+Underfull \hbox (badness 4647) in paragraph at lines 413--413
+[]|\T1/futs/m/n/9 Concentration Er-ror
+ []
+
+
+Overfull \hbox (6.60338pt too wide) in paragraph at lines 409--418
+[]$[]$ 
+ []
+
+File: Images/logo.png Graphic file (type png)
+<use Images/logo.png>
+Package pdftex.def Info: Images/logo.png  used on input line 431.
+(pdftex.def)             Requested size: 85.35826pt x 36.22755pt.
+[6 <./Images/EthanolAbsorption.jpg> <./Images/linear_fittingethanol.png>]
+<Images/polynomial_3_fitting.png, id=50, 462.528pt x 346.896pt>
+File: Images/polynomial_3_fitting.png Graphic file (type png)
+<use Images/polynomial_3_fitting.png>
+Package pdftex.def Info: Images/polynomial_3_fitting.png  used on input line 45
+5.
+(pdftex.def)             Requested size: 246.0pt x 184.49977pt.
+
+Overfull \hbox (6.60338pt too wide) in paragraph at lines 465--478
+[]$[]$ 
+ []
+
+
+Overfull \hbox (6.60338pt too wide) in paragraph at lines 484--506
+[]$[]$ 
+ []
+
+<Images/Colored Cigar Spectrums/LM00_Diverse_Spectrum.png, id=51, 722.7pt x 542
+.025pt>
+File: Images/Colored Cigar Spectrums/LM00_Diverse_Spectrum.png Graphic file (ty
+pe png)
+<use Images/Colored Cigar Spectrums/LM00_Diverse_Spectrum.png>
+Package pdftex.def Info: Images/Colored Cigar Spectrums/LM00_Diverse_Spectrum.p
+ng  used on input line 517.
+(pdftex.def)             Requested size: 246.0pt x 184.50108pt.
+File: Images/logo.png Graphic file (type png)
+<use Images/logo.png>
+Package pdftex.def Info: Images/logo.png  used on input line 521.
+(pdftex.def)             Requested size: 85.35826pt x 36.22755pt.
+[7 <./Images/polynomial_3_fitting.png>]
+<Images/Colored Cigar Spectrums/LM00_CO-CO2_Spectrum.png, id=57, 722.7pt x 542.
+025pt>
+File: Images/Colored Cigar Spectrums/LM00_CO-CO2_Spectrum.png Graphic file (typ
+e png)
+<use Images/Colored Cigar Spectrums/LM00_CO-CO2_Spectrum.png>
+Package pdftex.def Info: Images/Colored Cigar Spectrums/LM00_CO-CO2_Spectrum.pn
+g  used on input line 523.
+(pdftex.def)             Requested size: 246.0pt x 184.50108pt.
+<Images/Colored Cigar Spectrums/NEXT_CO-CO2_Spectrum.png, id=58, 722.7pt x 542.
+025pt>
+File: Images/Colored Cigar Spectrums/NEXT_CO-CO2_Spectrum.png Graphic file (typ
+e png)
+<use Images/Colored Cigar Spectrums/NEXT_CO-CO2_Spectrum.png>
+Package pdftex.def Info: Images/Colored Cigar Spectrums/NEXT_CO-CO2_Spectrum.pn
+g  used on input line 581.
+(pdftex.def)             Requested size: 246.0pt x 184.50108pt.
+File: Images/logo.png Graphic file (type png)
+<use Images/logo.png>
+Package pdftex.def Info: Images/logo.png  used on input line 585.
+(pdftex.def)             Requested size: 85.35826pt x 36.22755pt.
+ [8 <./Images/Colored Cigar Spectrums/LM00_Diverse_Spectrum.png> <./Images/Colo
+red Cigar Spectrums/LM00_CO-CO2_Spectrum.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 594--594
+[]|$[][]$
+ []
+
+
+Overfull \hbox (2.73106pt too wide) in paragraph at lines 589--597
+[]$[]$ 
+ []
+
+File: Images/logo.png Graphic file (type png)
+<use Images/logo.png>
+Package pdftex.def Info: Images/logo.png  used on input line 656.
+(pdftex.def)             Requested size: 85.35826pt x 36.22755pt.
+[9 <./Images/Colored Cigar Spectrums/NEXT_CO-CO2_Spectrum.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 680--680
+[]|\T1/futs/m/n/9 Relative
+ []
+
+
+Overfull \hbox (2.46744pt too wide) in paragraph at lines 677--687
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 3108) in paragraph at lines 695--713
+\T1/futs/m/n/10 With a vil-lain-ous ef-fect on smok-ers comes methanol.
+ []
+
+File: Images/logo.png Graphic file (type png)
+<use Images/logo.png>
+Package pdftex.def Info: Images/logo.png  used on input line 713.
+(pdftex.def)             Requested size: 85.35826pt x 36.22755pt.
+[10] (Report.bbl
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+5.
+
+(C:\Users\alon4\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Underfull \hbox (badness 3724) in paragraph at lines 23--26
+ []\T1/futs/m/n/9 H. N. Hsieh, \T1/futs/m/it/9 Ftir in-stru-men-ta-tion \T1/fut
+s/m/n/9 (2008), URL $\T1/cmtt/m/n/9 https :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--26
+ \T1/cmtt/m/n/9 / / studentportalen . uu . se / uusp-[]filearea-[]tool /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--26
+ \T1/cmtt/m/n/9 download . action ? nodeId = 111007 & toolAttachmentId =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--33
+ []\T1/futs/m/it/9 Fundamentals of Pho-ton-ics \T1/futs/m/n/9 (John Wi-ley
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--33
+ \T1/futs/m/n/9 and Sons, Ltd, 1991), ISBN 9780471213741,
+ []
+
+
+Overfull \hbox (3.67259pt too wide) in paragraph at lines 28--33
+ \T1/futs/m/n/9 https://onlinelibrary.wiley.com/doi/pdf/10.1002/0471213748,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--33
+ \T1/futs/m/n/9 URL $\T1/cmtt/m/n/9 https : / / onlinelibrary . wiley . com / d
+oi / abs / 10 .
+ []
+
+
+Underfull \hbox (badness 3503) in paragraph at lines 35--37
+ []\T1/futs/m/n/9 LibreTexts, \T1/futs/m/it/9 Beer's law\T1/futs/m/n/9 , $\T1/c
+mtt/m/n/9 https : / / chem . libretexts . org /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
+ \T1/cmtt/m/n/9 Courses / Providence _ College / CHM _ 331 _ Advanced _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
+ \T1/cmtt/m/n/9 Analytical _ Chemistry _ 1 / 08 \ %3A _ An _ Introduction _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
+ \T1/cmtt/m/n/9 to _ Ultraviolet-[]Visible _ Absorption _ Spectrometry /
+ []
+
+
+Underfull \hbox (badness 4013) in paragraph at lines 63--65
+ []\T1/futs/m/it/9 Introduction to Fourier Trans-form In-frared Spec-troscopy\T
+1/futs/m/n/9 ,
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 76--79
+ []\T1/futs/m/n/9 National In-sti-tute of Stan-dards and Tech-nol-ogy, U.S De-
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 76--79
+ \T1/futs/m/n/9 part-ment of Com-merce, \T1/futs/m/it/9 Nist chem-istry web-boo
+k, srd 69
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--79
+ \T1/futs/m/n/9 (2021), URL $\T1/cmtt/m/n/9 https : / / webbook . nist . gov / 
+chemistry /
+ []
+
+
+Overfull \hbox (14.1443pt too wide) in paragraph at lines 101--105
+ \T1/cmtt/m/n/9 the-[]atmosphere-[]getting-[]a-[]handle-[]on-[]carbon-[]dioxide
+/$\T1/futs/m/n/9 . 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--130
+ []\T1/futs/m/n/9 P. Tans and R. Keel-ing, ESRL
+ []
+
+
+Underfull \hbox (badness 3250) in paragraph at lines 133--142
+ []\T1/futs/m/n/9 T. A. Ja-cob-son, J. S. Kler, M. T. Hernke, R. K. Braun,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--163
+ []\T1/futs/m/n/9 N. C. for Biotech-nol-ogy In-for-ma-tion, \T1/futs/m/it/9 Pub
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--163
+ \T1/futs/m/it/9 Chem Com-pound Sum-mary for CID 281, Car-bon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--163
+ \T1/futs/m/it/9 monox-ide.\T1/futs/m/n/9 , Re-trieved De-cem-ber 21, 2021 from
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--163
+ \T1/futs/m/n/9 https://pubchem.ncbi.nlm.nih.gov/compound/Carbon-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--177
+ []\T1/futs/m/n/9 N. C. for Biotech-nol-ogy In-for-ma-tion, \T1/futs/m/it/9 Pub
+-Chem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--177
+ \T1/futs/m/it/9 Com-pound Sum-mary for CID 768, Hy-dro-gen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--177
+ \T1/futs/m/it/9 cyanide.\T1/futs/m/n/9 , Re-trieved De-cem-ber 21, 2021 from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--177
+ \T1/futs/m/n/9 https://pubchem.ncbi.nlm.nih.gov/compound/Hydrogen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--192
+ []\T1/futs/m/n/9 N. C. for Biotech-nol-ogy In-for-ma-tion, \T1/futs/m/it/9 Pub
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--192
+ \T1/futs/m/it/9 Chem Com-pound Sum-mary for CID 6557, Iso-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--192
+ \T1/futs/m/it/9 prene.\T1/futs/m/n/9 , Re-trieved De-cem-ber 21, 2021 from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--192
+ \T1/futs/m/n/9 https://pubchem.ncbi.nlm.nih.gov/compound/Isoprene.
+ []
+
+File: Images/logo.png Graphic file (type png)
+<use Images/logo.png>
+Package pdftex.def Info: Images/logo.png  used on input line 200.
+(pdftex.def)             Requested size: 85.35826pt x 36.22755pt.
+[11]
+Underfull \hbox (badness 3471) in paragraph at lines 202--207
+ []\T1/futs/m/n/9 M. Salaspuro, Scan-di-na-vian Jour-nal of Gas-troen-terol-ogy
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--230
+ \T1/futs/m/n/9 1469994X, URL $\T1/cmtt/m/n/9 http : / / www . jstor . org / st
+able /
+ []
+
+)
+File: Images/logo.png Graphic file (type png)
+<use Images/logo.png>
+Package pdftex.def Info: Images/logo.png  used on input line 718.
+(pdftex.def)             Requested size: 85.35826pt x 36.22755pt.
+ [12] (Report.aux) ) 
+Here is how much of TeX's memory you used:
+ 18178 strings out of 478428
+ 348511 string characters out of 2838199
+ 664843 words of memory out of 3000000
+ 36114 multiletter control sequences out of 15000+600000
+ 540661 words of font info for 114 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 99i,17n,103p,906b,1418s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\alon4\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ectt0900.pk>{C:/Users/alon4/AppData/Local/Programs/MiKTeX/fonts/e
+nc/dvips/base/8r.enc}<C:/Users/alon4/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmmib10.pfb><C:/Users/alon4/AppData/Roaming/MiKTeX/fonts/typ
+e1/public/fourier/fourier-bb.pfb><C:/Users/alon4/AppData/Roaming/MiKTeX/fonts/t
+ype1/public/fourier/fourier-mex.pfb><C:/Users/alon4/AppData/Roaming/MiKTeX/font
+s/type1/public/fourier/fourier-ml.pfb><C:/Users/alon4/AppData/Roaming/MiKTeX/fo
+nts/type1/public/fourier/fourier-mlit.pfb><C:/Users/alon4/AppData/Roaming/MiKTe
+X/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/alon4/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Users/alon4/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/alon4/AppData/Local
+/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on Report.pdf (12 pages, 772964 bytes).
+PDF statistics:
+ 180 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+

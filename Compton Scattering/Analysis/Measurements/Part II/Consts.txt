@@ -1,0 +1,19 @@
+Deg = 40, Win, lower = 0.4, upper = 2.5, delay = .75mu
+deg = 45, lower = 0.56, upper = 2.5, same
+deg = 45, lower = 0.56, upper = 4.0, same
+deg = 45, lower = 0.56, upper = 1.5, same
+deg = 50, lower = 0.8, upper = 2.7, same
+deg = 55, lower = 1.0, upper = 2.7, same
+deg = 60, lower = 1.28, upper = 2.62, same
+deg = 65, lower = 1.4, upper = 2.62, same
+deg = 70, lower = 1.66, upper = 2.62, same
+deg = 75, lower = 1.66, upper = 2.62, same
+deg = 80, lower = 2.0, upper = 2.62, same
+deg = -35, lower = 0.54, upper = 2.62, same
+deg = -40, lower = 0.66, upper = 2.62, same
+deg = -45, lower = 0.9, upper = 2.62, same
+deg = -50, lower = 1.1, upper = 2.62, same
+deg = -55, lower = 1.4, upper = 2.62, same
+deg = -60, lower = 1.56, upper = 2.62, same
+deg = 42.5, lower = 0.64, upper = 2.62, same
+deg = 48, lower = 0.8, upper = 2.62, same

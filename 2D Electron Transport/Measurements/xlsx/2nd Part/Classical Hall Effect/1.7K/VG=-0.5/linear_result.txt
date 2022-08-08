@@ -1,0 +1,15 @@
+Results:
+========
+
+Initial parameters' values:
+	1.0 1.0
+Fitted parameters' values:
+	a[0] = 7.624 ± 0.083 (1.086% error)
+	a[1] = 2215.430 ± 3.846 (0.174% error)
+Fitted parameters covariance:
+[[ 1.165e-02 -1.026e-01]
+ [-1.026e-01  2.515e+01]]
+Chi squared: 59.414
+Degrees of freedom: 101
+Chi squared reduced: 0.588
+P-probability: 1.000

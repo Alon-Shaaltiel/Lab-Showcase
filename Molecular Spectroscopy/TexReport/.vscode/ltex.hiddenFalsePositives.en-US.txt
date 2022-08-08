@@ -1,0 +1,2 @@
+{"rule":"SENTENCE_WHITESPACE","sentence":"^\\QCoblentz measured the IR spectra of hundreds of inorganic and organic compounds.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIn 1949 the astrophysicist Peter Fellgett used an interferometer to measure light from celestial bodies and produced the first Fourier transform infrared spectrum, however this method was still limited and took many hours to compute.\\E$"}

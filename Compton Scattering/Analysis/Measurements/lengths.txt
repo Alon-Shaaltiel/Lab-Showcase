@@ -1,0 +1,4 @@
+distance from source to center of disk - 81cm
+diameter of aluminum rod - 1.2cm
+upper height from which theres no longer radiation - 9cm
+lower height from which theres no longer radiation - 2cm 
